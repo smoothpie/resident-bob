@@ -1,0 +1,100 @@
+.main {
+  display: flex;
+  align-items: center;
+  padding: 1rem 3rem;
+  min-height: calc(100vh - 100px);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: -13rem;
+  margin-left: 15rem;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.switch {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.switchOption {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.switchOption:first-child {
+  margin-right: 0.5rem;
+}
+.switchOption:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.active {
+  color: #fff;
+  background-color: #000;
+}
+
+.description {
+  margin: 0.5rem 0;
+}
+
+.smallText {
+  max-width: 33rem;
+  font-size: 0.9rem;
+  line-height: 1.25;
+  color: grey;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 2rem;
+  width: 450px;
+  border: 1px solid #000;
+}
+
+.projectsHidden {
+  visibility: hidden;
+  width: 33%;
+}
+
+.project {
+  margin-bottom: 1rem;
+}
+
+.project:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 0.6;
+}
+
+@media (max-width: 1024px) {
+  .main {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-top: 3rem;
+    min-height: auto;
+  }
+
+  .header {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .projects {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .main {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+}

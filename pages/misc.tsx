@@ -15,9 +15,9 @@ export default function Home() {
     <>
       <SEO
         title="Karina Kupp"
-        description="Writer, musician, web developer, creator of Chill Subs. Pro at structuring data, creating demos and being cute awkward. Absolutely can't handle social media."
+        description="Crazy travelling, cat pictures, me being in love with my husband and being not in love with raisins, and tons of other stuff."
         image="/karina-kupp.jpg"
-        url="https://karinakupp.com"
+        url="https://karinakupp.com/misc"
       />
 
       <Navbar />

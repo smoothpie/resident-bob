@@ -10,14 +10,14 @@ const inter = Inter({ subsets: ['latin'] })
 
 // structuring data like a pro, leading social media like a lame cave person.
 
-export default function Home() {
+export default function Music() {
   return (
     <>
       <SEO
         title="Karina Kupp"
-        description="Writer, musician, web developer, creator of Chill Subs. Pro at structuring data, creating demos and being cute awkward. Absolutely can't handle social media."
+        description="Check out my own music and my favorite artists and records. See me obsess over City and Colour, mewithoutYou, The Cure, Carissa's Wierd and other sad bands."
         image="/karina-kupp.jpg"
-        url="https://karinakupp.com"
+        url="https://karinakupp.com/music"
       />
 
       <Navbar />
