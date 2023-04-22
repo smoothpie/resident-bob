@@ -1,21 +1,22 @@
+import Link from '@/components/Link'
 import styles from './Navbar.module.css'
 
 export default function Navbar() {
   return (
     <nav className={styles.container}>
-      <a href="/">
+      <Link href="/">
         <div className={styles.logo}>
           Karina Kupp [Kupryianovich]
         </div>
-      </a>
+      </Link>
       <div className={styles.links}>
-        <a href="/about">About</a>
-        {/* <a href="/dump">Brain dump</a> */}
-        <a href="/projects">Projects // Dev</a>
-        {/* <a href="/music">Music</a>
-        <a href="/writing">Writing</a> */}
-        {/* <a href="/favorites">Favorites</a>
-        <a href="/misc">Misc</a> */}
+        <Link href="/about">About</Link>
+        {/* <Link href="/dump">Brain dump</Link> */}
+        <Link href="/projects">Projects // Dev</Link>
+        {/* <Link href="/music">Music</Link>
+        <Link href="/writing">Writing</Link> */}
+        {/* <Link href="/favorites">Favorites</Link>
+        <Link href="/misc">Misc</Link> */}
       </div>
     </nav>
   )
