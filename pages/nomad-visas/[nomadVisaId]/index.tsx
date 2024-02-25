@@ -18,7 +18,7 @@ export async function getStaticPaths() {
     paths: nomadVisas.map((program: any) => ({
       params: { nomadVisaId: program.Slug }
     })),
-    fallback: true
+    fallback: false
   }
 }
 

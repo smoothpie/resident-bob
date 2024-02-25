@@ -32,7 +32,7 @@ const ProgramPage = ({ currentProgram }: any) => {
       <div className={s.details}>
         <h2>Путь 🐾</h2>
         <ul>
-          {currentProgram.Roadmap.map((step: any, i: number) => (
+          {currentProgram.Roadmap?.map((step: any, i: number) => (
             <li key={i} className={s.detailsBlockСontainer}>
               <div className={s.detailsBlock}>
                 <div className={s.number}>{i + 1}</div>
