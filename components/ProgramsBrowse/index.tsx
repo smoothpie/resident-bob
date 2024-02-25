@@ -69,6 +69,12 @@ const ProgramsTable = () => {
   useEffect(() => {
     setFilteredResults(nomadVisas.filter((v: any) => {
       let match = true;
+      if (filterValues.country) {
+        const countryMatch = v.Country.toLowerCase().includes(filterValues.country.toLowerCase());
+        if (!countryMatch) {
+          match = false;
+        }
+      }
       if (filterValues.monthlyIncome) {
         // notes: may need a separate yearly one. or add a note about guessing yearly
         // ahh also currency conversion
@@ -120,12 +126,16 @@ const ProgramsTable = () => {
   return (
     <div className={s.container}>
       <div className={s.topBar}>
-        <input className={s.search} placeholder="Search..." />
-        <SortSelect
+        <input
+          className={s.search}
+          onChange={(e: any) => setFilterValues({ ...filterValues, country: e.target.value })}
+          placeholder="Поиск..."
+        />
+        {/* <SortSelect
           options={sortOptions}
           defaultValue={sortBy}
           onSelect={(option: any) => sortResults(option)}
-        />
+        /> */}
         <div className={s.resultsCount}>
           <div className={s.resultsCountNumber}>{filteredResults.length}</div>&nbsp;results
         </div>

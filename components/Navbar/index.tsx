@@ -20,7 +20,7 @@ export default function Navbar() {
         <Link href="/">Все программы</Link>
         <Link href="/about">О проекте</Link>
         <Link href="/newsletter">Рассылка</Link>
-        <Link href="/">Поддержать</Link>
+        <a href="https://www.buymeacoffee.com/karinakupp" target="_blank">Поддержать</a>
         {/* <Link href="/login">Логин</Link> */}
       </div>
     </nav>

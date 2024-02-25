@@ -16,10 +16,10 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="sdg"
-        description="dgsd"
-        image="/karina-kupp.jpg"
-        url="https://karinakupp.com"
+        title="redident bob"
+        description="Список иммиграционных программ для самозанятых людей с удобным поиском по критериям. Визы и ВНЖ для цифровых кочевников и визы талантов."
+        image="/bob.png"
+        url="https://resident-bob.vercel.app/"
       />
 
       <main className={styles.main}>

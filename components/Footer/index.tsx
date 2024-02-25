@@ -9,7 +9,7 @@ export default function Footer() {
       <div className={styles.links}>
         {/* <a href="https://linkedin.com/karina-kupp">LinkedIn</a>
         <a href="https://instagram.com/karinakupp">Instagram</a> */}
-        <a href="#">Пожелания и предложения :)</a>
+        <a href="https://instagram.com/kupriyanovich" target="_blank">Пожелания и предложения :)</a>
       </div>
     </nav>
   )

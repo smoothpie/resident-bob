@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Karina Kupp"
-        description="Hello! I'm Karina. I write sad songs and build Chill Subs."
-        image="/karina-kupp.jpg"
-        url="https://karinakupp.com/about"
+        title="о проекте - resident bob"
+        description="Боб хочет помочь вам переехать. Поэтому он показывает вам, куда и как вы можете податься, и что нужно сделать, чтобы смочь."
+        image="/bob.png"
+        url="https://resident-bob.vercel.app/about"
       />
 
       <main className={styles.main}>
