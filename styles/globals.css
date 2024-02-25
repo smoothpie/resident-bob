@@ -84,11 +84,23 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "Unbounded", sans-serif; */
+
+}
+
+h1, h2, h3, h3 {
+  /* font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; */
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: #fff;
+}
+
+span {
+  /* font-family: "Unbounded", sans-serif; */
 }
 
 a {

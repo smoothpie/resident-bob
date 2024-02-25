@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import SEO from '@/components/SEO'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/About.module.scss'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,17 +20,15 @@ export default function Home() {
         url="https://karinakupp.com/about"
       />
 
-      <Navbar />
-
       <main className={styles.main}>
         <section className={styles.header}>
-          <h1>Helllooooo, can't wait to make this about me</h1>
-          <p className={styles.description}>I'm Karina. I write sad songs and build Chill Subs.</p>
-          <p className={styles.smallText}>You can typically find me creating yet another Spotify playlist, buying tickets to the other side of the world to see Carissa's Wierd reunion, or being angry I can't clone myself to work on 248582 ideas at the same time. Nice to meet you! Please be my friend and make me go outside.</p>
+          <h1>О проекте</h1>
+          <p className={styles.description}>Всем привет! Я Карина и я хочу переехать (правда пока что у меня нет денег потому что я маленький стартапер). Но еще я умею программировать (и два года назад создала классный проект <a href="https://www.chillsubs.com" target="_blank">Chill Subs</a>), поэтому я решила сделать сайтец, где каждый может примерно понять куда и как он может поехать, и что нужно сделать, чтобы смочь.</p>
+          <p>Пока что я начала с переездов для самозанятых людей (потому что это то, что болит у меня), но я хочу разрастить это и дальше!</p>
+          <p>У меня супер огромное количество идей, которые я буду постепенно тут воплощать, поэтому за прогрессом можете следить <a href="https://instagram.com/kupriyanovich" target="_blank">вот тут</a> (поздороваться тоже там можете)</p>
+          <p><a href="https://karinakupp.com/ru" target="_blank">Кто я вообще такая</a></p>
         </section>
       </main>
-
-      <Footer />
     </>
   )
 }

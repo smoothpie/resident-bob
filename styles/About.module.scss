@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 2rem 2rem;
+  min-height: calc(100vh - 100px);
+
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+    max-width: 40rem;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  a {
+    text-decoration: underline;
+    color: green;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

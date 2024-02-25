@@ -3,34 +3,56 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import ProgramsBrowse from '@/components/ProgramsBrowse'
 import SEO from '@/components/SEO'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Home.module.scss'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
-// structuring data like a pro, leading social media like a lame cave person.
+// should I have an "all" programs tab where it's all mixed up? and programs have type tags?
+// and the title would be program name instead of country name
 
 export default function Home() {
   return (
     <>
       <SEO
-        title="Karina Kupp"
-        description="Writer, musician, web developer, creator of Chill Subs. Pro at structuring data, creating demos and being cute awkward. Absolutely can't handle social media."
+        title="sdg"
+        description="dgsd"
         image="/karina-kupp.jpg"
         url="https://karinakupp.com"
       />
 
-      <Navbar />
-
       <main className={styles.main}>
         <section className={styles.header}>
-          <h1>Hi! Karina here.</h1>
-          <p className={styles.description}>This is a fascinating aggregator of all my attempts not to waste my life.</p>
-          <p className={styles.smallText}>// Sometimes, I look out the window and think that wasting one's life is impossible. It's here after all, it's yours, you're living it! Other times, I go on Twitter and every single person seems to be doing more than me. Then I get up and create a personal website. Then I think it's all stupid. //</p>
+          <div className={styles.headerText}>
+            <h1>resident bob</h1>
+            <p>Грузия это хорошо, но куда дальше то?</p>
+          </div>
+          <div className={styles.bob}>
+            <Image
+              src="/bob.png"
+              alt="resident bob"
+              width={120}
+              height={120}
+              unoptimized
+            />
+          </div>
         </section>
-      </main>
 
-      <Footer />
+        <div className={styles.categories}>
+          <div className={`${styles.category} ${styles.categoryActive}`}>
+            👨🏻‍💻 &nbsp;Для номадов
+          </div>
+          <div className={styles.category}>
+            👩‍🎨 &nbsp;Визы талантов
+          </div>
+          <div className={styles.category}>
+            Остальное каминг сун...
+          </div>
+        </div>
+
+        <ProgramsBrowse />
+      </main>
     </>
   )
 }
