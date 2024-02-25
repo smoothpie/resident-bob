@@ -3,7 +3,7 @@ import CaretUpOutline from 'react-ionicons/lib/CaretUpOutline';
 import CaretDownOutline from 'react-ionicons/lib/CaretDownOutline';
 import styles from './SortSelect.module.scss';
 
-export default function SortSelect(props) {
+export default function SortSelect(props: any) {
   const { options, style, onSelect, defaultValue } = props;
 
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
@@ -15,7 +15,7 @@ export default function SortSelect(props) {
     }
   }, [defaultValue]);
 
-  const handleOptionSelect = (option) => {
+  const handleOptionSelect = (option: any) => {
     if (option.value === undefined) {
       setSelectedOption(options[0]);
     } else {
@@ -63,7 +63,7 @@ export default function SortSelect(props) {
       </div>
       {showDropdown && (
         <ul className={styles.list}>
-          {options.map((option, i) => (
+          {options.map((option: any, i: number) => (
             <li key={i} onClick={() => handleOptionSelect(option)}>
               <input
                 className={styles.radio}

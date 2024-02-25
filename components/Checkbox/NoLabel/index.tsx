@@ -5,7 +5,7 @@ type Checkbox = {
   label?: string;
   className?: string;
   checked?: boolean;
-  onChange?: (e) => void;
+  onChange?: (e: any) => void;
 };
 
 const Checkbox: React.FC<Checkbox> = (props) => {
