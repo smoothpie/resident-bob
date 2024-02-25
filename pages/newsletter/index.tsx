@@ -41,7 +41,7 @@ export default function Newsletter() {
       <SEO
         title="рассылка - resident bob"
         description="Мы с Бобом хотим уведомлять вас об обновлениях по иммиграционным программам и сайту. Возможно еще периодически рассказывать иммигрантские истории и полезности."
-        image="/bob.png"
+        image="/bob-meta.png"
         url="https://resident-bob.vercel.app/newsletter"
       />
 

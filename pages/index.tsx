@@ -18,7 +18,7 @@ export default function Home() {
       <SEO
         title="redident bob"
         description="Список иммиграционных программ для самозанятых людей с удобным поиском по критериям. Визы и ВНЖ для цифровых кочевников и визы талантов."
-        image="/bob.png"
+        image="/bob-meta.png"
         url="https://resident-bob.vercel.app/"
       />
 

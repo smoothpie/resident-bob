@@ -16,7 +16,7 @@ export default function Home() {
       <SEO
         title="о проекте - resident bob"
         description="Боб хочет помочь вам переехать. Поэтому он показывает вам, куда и как вы можете податься, и что нужно сделать, чтобы смочь."
-        image="/bob.png"
+        image="/bob-meta.png"
         url="https://resident-bob.vercel.app/about"
       />
 
