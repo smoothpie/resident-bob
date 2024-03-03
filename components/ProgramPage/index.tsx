@@ -62,7 +62,19 @@ const ProgramPage = ({ currentProgram }: any) => {
 
       <div className={s.details}>
         <h2>Что по доходу 💰</h2>
-        <p><strong>Сумма:</strong> {currentProgram.incomeRequirements?.currency && (currencies as any)[currentProgram.incomeRequirements.currency?.toUpperCase()]?.symbol}{currentProgram.incomeRequirements?.amount} / {currentProgram.incomeRequirements?.unit && periodLabelTranslations[currentProgram.incomeRequirements.unit]}</p>
+        <p>
+          <strong>Сумма:</strong>
+          {(currentProgram.incomeRequirements || currentProgram.moneyOnBankAccount) && (
+            <>
+              💰 &nbsp;
+              {currentProgram.incomeRequirements && (
+                currentProgram.incomeRequirements?.currency && `${(currencies as any)[currentProgram.incomeRequirements.currency?.toUpperCase()]?.symbol}${currentProgram.incomeRequirements?.amount} / ${currentProgram.incomeRequirements?.unit && periodLabelTranslations[currentProgram.incomeRequirements.unit]}`
+              )}
+              {currentProgram.incomeRequirements ? " или " : ""}
+              {currentProgram.moneyOnBankAccount?.currency && `${(currencies as any)[currentProgram.moneyOnBankAccount.currency?.toUpperCase()]?.symbol}${currentProgram.moneyOnBankAccount?.amount} на счету`}
+            </>
+          )}
+        </p>
         <p><strong>Подробнее:</strong> {currentProgram.incomeRequirementsDetails}</p>   
       </div>
 

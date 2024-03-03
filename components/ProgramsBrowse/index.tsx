@@ -89,6 +89,31 @@ const ProgramsTable = () => {
           match = false;
         }
       }
+      if (filterValues.yearlyIncome) {
+        // notes: may need a separate yearly one. or add a note about guessing yearly
+        // ahh also currency conversion
+        // how long do you have this income for?
+        // before/after tax
+        // yeah a lot to consider. definitely needs a note like "double check"
+        // separate the ones with unclear requirements vs no requirements
+        const yearlyRequirementMatch = v.incomeRequirements?.unit === "year" && v.incomeRequirements?.amount <= filterValues.yearlyIncome;
+        const monthlyRequirementMatch = v.incomeRequirements?.unit === "month" && v.incomeRequirements?.amount <= (filterValues.yearlyIncome / 12);
+        if (!(yearlyRequirementMatch || monthlyRequirementMatch || v.incomeRequirementsDetails === "-")) {
+          match = false;
+        }
+      }
+      if (filterValues.bankBalance) {
+        // notes: may need a separate yearly one. or add a note about guessing yearly
+        // ahh also currency conversion
+        // how long do you have this income for?
+        // before/after tax
+        // yeah a lot to consider. definitely needs a note like "double check"
+        // separate the ones with unclear requirements vs no requirements
+        const bankBalanceMatch = v.moneyOnBankAccount?.amount <= filterValues.bankBalance;
+        if (!bankBalanceMatch) {
+          match = false;
+        }
+      }
       // separate unclear vs no?
       if (filterValues.allowsFamily && !(v.bringingFamily || (v.familyDetails === ""))) {
         match = false;
@@ -168,6 +193,28 @@ const ProgramsTable = () => {
           </div>
 
           <div className={s.field}>
+            <label htmlFor="monthlyIncome">Или среднее в год! $</label>
+            <input
+              type="number"
+              name="yearlyIncome"
+              value={filterValues.yearlyIncome}
+              onChange={e => setFilterValues({ ...filterValues, yearlyIncome: e.target.value })}
+              onWheel={(e: any) => e.target.blur()}
+            />
+          </div>
+
+          <div className={s.field}>
+            <label htmlFor="monthlyIncome">Или может у тебя куча накоплений на счету? $</label>
+            <input
+              type="number"
+              name="bankBalance"
+              value={filterValues.bankBalance}
+              onChange={e => setFilterValues({ ...filterValues, bankBalance: e.target.value })}
+              onWheel={(e: any) => e.target.blur()}
+            />
+          </div>
+
+          <div className={s.field}>
             <Checkbox
               value="allowsFamily"
               checked={filterValues.allowsFamily}
@@ -234,8 +281,15 @@ const ProgramsTable = () => {
                   <p>{getProgramDescription(program.details)}</p>
                   <ul>
                     {/* <li>Требования: {program.Requirements}</li> */}
-                    {program.incomeRequirements && (
-                      <li>💰 &nbsp;{program.incomeRequirements?.currency && (currencies as any)[program.incomeRequirements.currency?.toUpperCase()]?.symbol}{program.incomeRequirements?.amount} / {program.incomeRequirements?.unit && periodLabelTranslations[program.incomeRequirements.unit]}</li>
+                    {(program.incomeRequirements || program.moneyOnBankAccount) && (
+                      <li>
+                        💰 &nbsp;
+                        {program.incomeRequirements && (
+                          program.incomeRequirements?.currency && `${(currencies as any)[program.incomeRequirements.currency?.toUpperCase()]?.symbol}${program.incomeRequirements?.amount} / ${program.incomeRequirements?.unit && periodLabelTranslations[program.incomeRequirements.unit]}`
+                        )}
+                        {program.incomeRequirements ? " или " : ""}
+                        {program.moneyOnBankAccount?.currency && `${(currencies as any)[program.moneyOnBankAccount.currency?.toUpperCase()]?.symbol}${program.moneyOnBankAccount?.amount} на счету`}
+                      </li>
                     )}
                     {program.roadmap && (
                       <li key={i}>🐾 &nbsp;{program.roadmap.map((r: any) => `${r.type && permitTypeTranslations[r.type]} на ${r.period || "?"} месяцев`).join(" → ")}</li>
