@@ -23,16 +23,16 @@ const ProgramPage = ({ currentProgram }: any) => {
   return (
     <div className={s.container}>
       <section className={s.header}>
-        <div className={s.flag}><span className={`fi fi-${currentProgram["Country code"].toLowerCase()}`}></span></div>
-        <h1>{currentProgram.Country}</h1>
-        <p>{currentProgram.Details}</p>
-        <a href={currentProgram.Link} target="_blank">Сайт программы</a>
+        <div className={s.flag}><span className={`fi fi-${currentProgram.countryCode.toLowerCase()}`}></span></div>
+        <h1>{currentProgram.title}</h1>
+        <p>{currentProgram.details}</p>
+        <a href={currentProgram.link} target="_blank">Сайт программы</a>
       </section>
 
       <div className={s.details}>
         <h2>Путь 🐾</h2>
         <ul>
-          {currentProgram.Roadmap?.map((step: any, i: number) => (
+          {currentProgram.roadmap?.map((step: any, i: number) => (
             <li key={i} className={s.detailsBlockСontainer}>
               <div className={s.detailsBlock}>
                 <div className={s.number}>{i + 1}</div>
@@ -52,41 +52,41 @@ const ProgramPage = ({ currentProgram }: any) => {
 
       <div className={s.details}>
         <h2>Кого можно взять? ❤️</h2>
-        <p>{currentProgram["Family details"] || "Неизвестно!"}</p>
+        <p>{currentProgram.familyDetails || "Неизвестно!"}</p>
       </div>
 
       <div className={s.details}>
         <h2>Требования в целом 🎯</h2>
-        <p>{currentProgram.Requirements}</p>
+        <p>{currentProgram.requirements}</p>
       </div>
 
       <div className={s.details}>
         <h2>Что по доходу 💰</h2>
-        <p><strong>Сумма:</strong> {currentProgram["Income requirements"]?.currency && (currencies as any)[currentProgram["Income requirements"].currency?.toUpperCase()]?.symbol}{currentProgram["Income requirements"]?.amount} / {currentProgram["Income requirements"]?.unit && periodLabelTranslations[currentProgram["Income requirements"].unit]}</p>
-        <p><strong>Подробнее:</strong> {currentProgram["Income requirements details"]}</p>   
+        <p><strong>Сумма:</strong> {currentProgram.incomeRequirements?.currency && (currencies as any)[currentProgram.incomeRequirements.currency?.toUpperCase()]?.symbol}{currentProgram.incomeRequirements?.amount} / {currentProgram.incomeRequirements?.unit && periodLabelTranslations[currentProgram.incomeRequirements.unit]}</p>
+        <p><strong>Подробнее:</strong> {currentProgram.incomeRequirementsDetails}</p>   
       </div>
 
       <div className={s.details}>
         <h2>Другие требования ✔️</h2>
-        <p><strong>Местные заказчики:</strong> {currentProgram["Needs client from country"] ? "Нужны" : "Не нужны"}</p>
-        <p><strong>Страховка:</strong> {currentProgram["Insurance requirements"] ? "Да" : "Нет"}</p>
-        <p><strong>Справка о не судимости:</strong> {currentProgram["Criminal record"] ? "Да" : "Нет"}</p>
-        <p><strong>Подтверждение адреса:</strong> {currentProgram["Address requirements"] ? "Да" : "Нет"}</p>
+        <p><strong>Местные заказчики:</strong> {currentProgram.needsLocalClients ? "Нужны" : "Не нужны"}</p>
+        <p><strong>Страховка:</strong> {currentProgram.insuranceRequirements ? "Да" : "Нет"}</p>
+        <p><strong>Справка о не судимости:</strong> {currentProgram.criminalRecord ? "Да" : "Нет"}</p>
+        <p><strong>Подтверждение адреса:</strong> {currentProgram.addressRequirements ? "Да" : "Нет"}</p>
       </div>
 
-      {currentProgram["Important"] && (
+      {currentProgram.important && (
         <div className={s.details}>
           <h2>Еще из важного! ✍️</h2>
-          <p>{currentProgram["Important"]}</p>
+          <p>{currentProgram.important}</p>
         </div>
       )}
 
       <div className={s.details}>
         <h2>По оформлению 📝</h2>
-        <p><strong>Стоимость:</strong> {currentProgram.Cost || "?"}</p>
-        <p><strong>Квота:</strong> {currentProgram.Quota || "-"}</p>
-        <p><strong>Сроки:</strong> {currentProgram["Time to get"] || "?"}</p>
-        <p><strong>Где делать:</strong> {currentProgram["Where to get"] || "?"}</p>
+        <p><strong>Стоимость:</strong> {currentProgram.cost || "Боб не знает"}</p>
+        <p><strong>Квота:</strong> {currentProgram.quota || "Нет"}</p>
+        <p><strong>Сроки:</strong> {currentProgram.timeToGet || "Боб не знает"}</p>
+        <p><strong>Где делать:</strong> {currentProgram.whereToGet || "Боб не знает"}</p>
       </div>
     </div>
   )

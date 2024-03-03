@@ -1,11 +1,11 @@
 [
   {
-    "Country": "Андорра",
-    "Country code": "AD",
-    "Slug": "andorra",
-    "Link": "https://www.immigracio.ad/ca/d-3-residencia-per-a-nomada-digital",
-    "Details": "Всего правительство планирует выдавать 100 виз в год.",
-    "Roadmap": [
+    "title": "Андорра",
+    "countryCode": "AD",
+    "slug": "andorra",
+    "link": "https://www.immigracio.ad/ca/d-3-residencia-per-a-nomada-digital",
+    "details": "Всего правительство планирует выдавать 100 виз в год.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12
@@ -17,40 +17,40 @@
         "details": "c последующим продлением по схеме: 2—3—10 лет."
       }
     ],
-    "Validity period details": "с возможностью оформления ВНЖ на два года и последующим продлением по схеме: 2—3—10 лет.",
+    "validityDetails": "с возможностью оформления ВНЖ на два года и последующим продлением по схеме: 2—3—10 лет.",
     "Min stay in a year": 90,
-    "Requirements": "Для получения статуса необходимо работать удалённо в технологичном секторе (без требования к уровню дохода), получить одобрение от правительства, подтвердить наличие недвижимости в собственности или на основании договора аренды минимум на два года, пребывать в стране минимум 90 дней в течение календарного года. Также нужно будет доказать, что у вас достаточно средств для проживания, нет судимостей и есть медицинская страховка.",
-    "Income requirements details": "-",
-    "Income requirements": null,
-    "Address requirements": {
+    "requirements": "Для получения статуса необходимо работать удалённо в технологичном секторе (без требования к уровню дохода), получить одобрение от правительства, подтвердить наличие недвижимости в собственности или на основании договора аренды минимум на два года, пребывать в стране минимум 90 дней в течение календарного года. Также нужно будет доказать, что у вас достаточно средств для проживания, нет судимостей и есть медицинская страховка.",
+    "incomeRequirementsDetails": "-",
+    "incomeRequirements": null,
+    "addressRequirements": {
       "rentPeriod": 24,
       "alternative": "ownership"
     },
-    "Address requirements details": "подтвердить наличие недвижимости в собственности или на основании договора аренды минимум на два года",
-    "Insurance requirements": false,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "",
-    "Quota": 100,
-    "Time to get": "",
-    "Where to get": "на месте",
-    "Important": [
+    "addressRequirementsDetails": "подтвердить наличие недвижимости в собственности или на основании договора аренды минимум на два года",
+    "insuranceRequirements": false,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "",
+    "quota": 100,
+    "timeToGet": "",
+    "whereToGet": "на месте",
+    "important": [
       "Наличие договора аренды минимум на два года - hm didn't find on official link"
     ],
-    "Notes": "Couldn't find info on the quota. Some random site says income requirements is 3858 euro.",
-    "Resources": [
+    "notes": "Couldn't find info on the quota. Some random site says income requirements is 3858 euro.",
+    "resources": [
       "https://pronomad.ru/blog/andorra-digital-nomad-visa/"
     ]
   },
   {
-    "Country": "Албания",
-    "Country code": "AL",
-    "Slug": "albania",
-    "Link": "https://e-visa.al/apply",
-    "Details": "",
-    "Roadmap": [
+    "title": "Албания",
+    "countryCode": "AL",
+    "slug": "albania",
+    "link": "https://e-visa.al/apply",
+    "details": "",
+    "roadmap": [
       {
         "type": "residency",
         "period": 12,
@@ -58,48 +58,48 @@
         "yearsToPermanent": 5
       }
     ],
-    "Validity period details": "ВНЖ сроком на год, затем его можно несколько раз продлевать, а через пять лет проживания получить ПМЖ",
-    "Requirements": "Для подтверждения статуса необходимо предъявить контракт с работодателем или заказчиком за границей, а также иметь постоянный адрес, банковский счёт и местную медицинскую страховку. Кроме того, нужно будет доказать, что у вас достаточно средств для проживания.",
-    "Income requirements details": "-",
-    "Income requirements": null,
-    "Address requirements details": "постоянный адрес",
-    "Address requirements": {
+    "validityDetails": "ВНЖ сроком на год, затем его можно несколько раз продлевать, а через пять лет проживания получить ПМЖ",
+    "requirements": "Для подтверждения статуса необходимо предъявить контракт с работодателем или заказчиком за границей, а также иметь постоянный адрес, банковский счёт и местную медицинскую страховку. Кроме того, нужно будет доказать, что у вас достаточно средств для проживания.",
+    "incomeRequirementsDetails": "-",
+    "incomeRequirements": null,
+    "addressRequirementsDetails": "постоянный адрес",
+    "addressRequirements": {
       "details": "постоянный адрес. CR: it is not stated that this must be for the entire duration of your trip. You must have a current address in Albania for the visa to be issued."
     },
-    "Insurance requirements": true,
-    "Min insurance": {
+    "insuranceRequirements": true,
+    "minInsurance": {
       "currency": "eur",
       "amount": 30000
     },
-    "Local bank account": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "12 weeks",
-    "Where to get": "online",
-    "Resources": [
+    "localBankAccount": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "12 weeks",
+    "whereToGet": "online",
+    "resources": [
       "https://prian.ru/news/v-albanii-utverdili-novye-pravila-polucheniya-vnzh.html",
       "https://citizenremote.com/visas/albania-digital-nomad-visa/",
       "https://pronomad.ru/blog/albania-nomad-visa/"
     ],
-    "Notes": "Citizen Remote says that this is a visa. Also income requirement: While no minimum income is specified, it is anticipated to be at least $9,800 per year for an individual, matching the minimum income associated with a retirement visa. // Another site says не указан – вероятно, нужна минималка (€290 в 2023 г.)",
-    "Important": [
+    "notes": "Citizen Remote says that this is a visa. Also income requirement: While no minimum income is specified, it is anticipated to be at least $9,800 per year for an individual, matching the minimum income associated with a retirement visa. // Another site says не указан – вероятно, нужна минималка (€290 в 2023 г.)",
+    "important": [
       "CR: The only concerns we have about this visa are the tax implications, as digital nomads will be required to pay taxes on both foreign and domestic income, and Albania does not have double taxation treaties with many countries, including the United States."
     ],
-    "Additional": [
+    "additional": [
       "CR: In July 2023, the Albanian government announced streamlined procedures for foreign individuals entering Albania to work in the information technology (IT) sector. According to the decision, foreigners entering the country’s territory with a declaration from an IT company stating their employment plans are granted visa-free entry and a permit to stay for up to one year. This period allows the foreign worker to later apply for an official work permit within Albania."
     ]
   },
   {
-    "Country": "Венгрия",
-    "Country code": "HU",
-    "Slug": "hungary",
-    "Link": "http://www.bmbah.hu",
-    "Details": "В ноябре 2021 года страна стала предоставлять «белые карты» (the white card)1– вид на жительство, предназначенный для цифровых кочевников из стран вне зоны ЕС, которые работают на работодателя или получают доход от предпринимательской деятельности за пределами Венгрии.",
-    "Roadmap": [
+    "title": "Венгрия",
+    "countryCode": "HU",
+    "slug": "hungary",
+    "link": "http://www.bmbah.hu",
+    "details": "В ноябре 2021 года страна стала предоставлять «белые карты» (the white card)1– вид на жительство, предназначенный для цифровых кочевников из стран вне зоны ЕС, которые работают на работодателя или получают доход от предпринимательской деятельности за пределами Венгрии.",
+    "roadmap": [
       {
         "type": "residency",
         "period": 12,
@@ -108,10 +108,10 @@
         "renewalPeriod": 2
       }
     ],
-    "Validity period details": "Срок действия карты составляет не более одного года и может быть продлён один раз.",
-    "Requirements": "Основные условия получения «белой карты» следующие: доход заявителя в месяц должен составлять €2 тыс. или более в течение шести месяцев до въезда в страну и поддерживаться на протяжении всего периода пребывания в Венгрии. Помимо этого требования, нужно подтвердить адрес проживания и оформить медицинскую страховку.",
-    "Income requirements details": "€2 тыс. или более в течение шести месяцев до въезда в страну и поддерживаться на протяжении всего периода пребывания в Венгрии",
-    "Income requirements": {
+    "validityDetails": "Срок действия карты составляет не более одного года и может быть продлён один раз.",
+    "requirements": "Основные условия получения «белой карты» следующие: доход заявителя в месяц должен составлять €2 тыс. или более в течение шести месяцев до въезда в страну и поддерживаться на протяжении всего периода пребывания в Венгрии. Помимо этого требования, нужно подтвердить адрес проживания и оформить медицинскую страховку.",
+    "incomeRequirementsDetails": "€2 тыс. или более в течение шести месяцев до въезда в страну и поддерживаться на протяжении всего периода пребывания в Венгрии",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
@@ -120,70 +120,70 @@
       "shouldSustain": true,
       "beforeTax": true
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "да"
     },
-    "Address requirements details": "да",
-    "Insurance requirements": true,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "€110",
-    "Quota": "",
-    "Time to get": "",
-    "Resources": [
+    "addressRequirementsDetails": "да",
+    "insuranceRequirements": true,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "€110",
+    "quota": "",
+    "timeToGet": "",
+    "resources": [
       "https://pronomad.ru/blog/hungary-digital-nomad-visa/"
     ]
   },
   {
-    "Country": "Германия",
-    "Country code": "DE",
-    "Slug": "germany",
-    "Link": "https://service.berlin.de/",
-    "Details": "Виза для самозанятых иностранцев в Германии (Aufenthaltserlaubnis für selbständige Tätigkeit)",
-    "Roadmap": [
+    "title": "Германия",
+    "countryCode": "DE",
+    "slug": "germany",
+    "link": "https://service.berlin.de/",
+    "details": "Виза для самозанятых иностранцев в Германии (Aufenthaltserlaubnis für selbständige Tätigkeit)",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12
       }
     ],
-    "Validity period details": "",
-    "Requirements": "Соискателю на ВНЖ нужно встать на учёт в местной налоговой службе и доказать, что его деятельность относится к «либеральной» категории (журналисты, дизайнеры, художники, консультанты и прочие представители свободных профессий). //// Иностранцы должны показать, что имеют материальное обеспечение, чтобы комфортно жить в Германии, – не менее €1,2 тыс. в месяц, и оформить медицинскую страховку. Также необходимо сообщить о законном месте жительства и зарегистрировать адрес в местном бюро регистрации (Bürgeramt). //// Чтобы доказать необходимость своего присутствия, заявитель должен иметь клиентов из Германии.",
-    "Income requirements details": "не менее €1,2 тыс. в месяц",
-    "Income requirements": {
+    "validityDetails": "",
+    "requirements": "Соискателю на ВНЖ нужно встать на учёт в местной налоговой службе и доказать, что его деятельность относится к «либеральной» категории (журналисты, дизайнеры, художники, консультанты и прочие представители свободных профессий). //// Иностранцы должны показать, что имеют материальное обеспечение, чтобы комфортно жить в Германии, – не менее €1,2 тыс. в месяц, и оформить медицинскую страховку. Также необходимо сообщить о законном месте жительства и зарегистрировать адрес в местном бюро регистрации (Bürgeramt). //// Чтобы доказать необходимость своего присутствия, заявитель должен иметь клиентов из Германии.",
+    "incomeRequirementsDetails": "не менее €1,2 тыс. в месяц",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
       "amount": 1200,
       "beforeTax": true
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "необходимо сообщить о законном месте жительства и зарегистрировать адрес в местном бюро регистрации (Bürgeramt)"
     },
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": true,
-    "Bringing family": false,
-    "Family details": "unknown",
-    "Cost": "Оформление первоначальной визы стоит €75-€100, а взнос за оформление ВНЖ – ещё €100.",
-    "Quota": "",
-    "Time to get": "",
-    "Important": [
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": true,
+    "bringingFamily": false,
+    "familyDetails": "unknown",
+    "cost": "Оформление первоначальной визы стоит €75-€100, а взнос за оформление ВНЖ – ещё €100.",
+    "quota": "",
+    "timeToGet": "",
+    "important": [
       "деятельность относится к «либеральной» категории (журналисты, дизайнеры, художники, консультанты и прочие представители свободных профессий)"
     ],
-    "Notes": "pronomad says it's residency for 3 years. and can't bring family.",
-    "Resources": [
+    "notes": "pronomad says it's residency for 3 years. and can't bring family.",
+    "resources": [
       "https://pronomad.ru/blog/freelance-visa-germania/"
     ]
   },
   {
-    "Country": "Греция",
-    "Country code": "GR",
-    "Slug": "greece",
-    "Link": "https://prian.ru/news/greciya-vnesla-v-parlament-zakonoproekt-o-cifrovyh-kochevnikah.html",
-    "Details": "https://www.workfromcrete.gr/",
-    "Roadmap": [
+    "title": "Греция",
+    "countryCode": "GR",
+    "slug": "greece",
+    "link": "https://prian.ru/news/greciya-vnesla-v-parlament-zakonoproekt-o-cifrovyh-kochevnikah.html",
+    "details": "https://www.workfromcrete.gr/",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12
@@ -193,86 +193,86 @@
         "period": 24
       }
     ],
-    "Validity period details": "1 год. За это время можно подать документы на получение ВНЖ сроком на два года.",
-    "Requirements": "Заявителям необходимо работать удалённо с работодателями или клиентами за пределами Греции. /// оформить медицинскую страховку и представить договор аренды или покупки жилья в Греции. Также потребуется справка о несудимости.",
-    "Income requirements details": "ежемесячный доход, превышающий €3,5 тыс. в месяц после уплаты налогов,",
-    "Income requirements": {
+    "validityDetails": "1 год. За это время можно подать документы на получение ВНЖ сроком на два года.",
+    "requirements": "Заявителям необходимо работать удалённо с работодателями или клиентами за пределами Греции. /// оформить медицинскую страховку и представить договор аренды или покупки жилья в Греции. Также потребуется справка о несудимости.",
+    "incomeRequirementsDetails": "ежемесячный доход, превышающий €3,5 тыс. в месяц после уплаты налогов,",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
       "amount": 3500,
       "beforeTax": false
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "представить договор аренды или покупки жилья в Греции",
       "alternative": "ownership"
     },
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "Новое законодательство позволяет гражданам третьих стран привезти с собой членов семьи, но последние не получат права работать в Греции. В этом случае требуемый минимальный доход – плюс 20% на супруга и 15% на каждого ребёнка.",
-    "Cost": "Плата за подачу заявления составляет €75, а ещё потребуется уплатить административный сбор в размере €150.",
-    "Quota": "",
-    "Time to get": "",
-    "Where to get": "на месте",
-    "Resources": [
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "Новое законодательство позволяет гражданам третьих стран привезти с собой членов семьи, но последние не получат права работать в Греции. В этом случае требуемый минимальный доход – плюс 20% на супруга и 15% на каждого ребёнка.",
+    "cost": "Плата за подачу заявления составляет €75, а ещё потребуется уплатить административный сбор в размере €150.",
+    "quota": "",
+    "timeToGet": "",
+    "whereToGet": "на месте",
+    "resources": [
       "https://pronomad.ru/blog/greece-digital-nomad-visa/"
     ]
   },
   {
-    "Country": "Грузия",
-    "Country code": "GE",
-    "Slug": "georgia",
-    "Link": "",
-    "Details": "Программа Remotely From Georgia рассчитана на тех, кто переезжает в страну на период более года. Суть новой программы в том, что иностранцы, которые задержатся в стране на 180 дней и дольше, станут налоговыми резидентами и должны будут платить налоги. В качестве цифровых кочевников в Грузию могут переехать удалённые сотрудники, фрилансеры и владельцы бизнеса.",
-    "Roadmap": [
+    "title": "Грузия",
+    "countryCode": "GE",
+    "slug": "georgia",
+    "link": "",
+    "details": "Программа Remotely From Georgia рассчитана на тех, кто переезжает в страну на период более года. Суть новой программы в том, что иностранцы, которые задержатся в стране на 180 дней и дольше, станут налоговыми резидентами и должны будут платить налоги. В качестве цифровых кочевников в Грузию могут переехать удалённые сотрудники, фрилансеры и владельцы бизнеса.",
+    "roadmap": [
       {
         "type": "visa"
       }
     ],
-    "Validity period details": "",
-    "Requirements": "От них потребуется представить медицинскую страховку и подтвердить доход в размере от $2 тыс.",
-    "Income requirements details": "$2 тыс. или $24,000 на счету.",
-    "Income requirements": {
+    "validityDetails": "",
+    "requirements": "От них потребуется представить медицинскую страховку и подтвердить доход в размере от $2 тыс.",
+    "incomeRequirementsDetails": "$2 тыс. или $24,000 на счету.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
       "amount": 2000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "unknown",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "",
-    "Important": [
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "unknown",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "",
+    "important": [
       "Доход должен быть не из Грузии.",
       "Нужно оставаться в стране больше 12 месяцев."
     ]
   },
   {
-    "Country": "Исландия",
-    "Country code": "IS",
-    "Slug": "iceland",
-    "Link": "https://island.is/",
-    "Details": "",
-    "Roadmap": [
+    "title": "Исландия",
+    "countryCode": "IS",
+    "slug": "iceland",
+    "link": "https://island.is/",
+    "details": "",
+    "roadmap": [
       {
         "type": "visa",
         "period": 6
       }
     ],
-    "Validity period details": "до полугода",
-    "Requirements": "Для этого он должен предъявить контракт с иностранным работодателем и доказать доход от €6 835, если планирует приехать один, и от €8 886 – если с ним едет супруг или партнёр. Также необходима медицинская страховка; могут спросить справку об отсутствии судимости.",
-    "Income requirements details": "от €6 835",
-    "Income requirements": {
+    "validityDetails": "до полугода",
+    "requirements": "Для этого он должен предъявить контракт с иностранным работодателем и доказать доход от €6 835, если планирует приехать один, и от €8 886 – если с ним едет супруг или партнёр. Также необходима медицинская страховка; могут спросить справку об отсутствии судимости.",
+    "incomeRequirementsDetails": "от €6 835",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
@@ -280,25 +280,25 @@
       "amountWithPartner": 8886,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "€83",
-    "Quota": "",
-    "Time to get": "",
-    "Notes": "pronomad says 7000 eur"
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "€83",
+    "quota": "",
+    "timeToGet": "",
+    "notes": "pronomad says 7000 eur"
   },
   {
-    "Country": "Испания",
-    "Country code": "ES",
-    "Slug": "spain",
-    "Link": "https://inclusion.seg-social.es/",
-    "Details": "23 декабря 2022 года в Испании вступил в силу закон, предполагающий запуск новой визы для сотрудников, работающих удалённо, – International Teleworking Visa.",
-    "Roadmap": [
+    "title": "Испания",
+    "countryCode": "ES",
+    "slug": "spain",
+    "link": "https://inclusion.seg-social.es/",
+    "details": "23 декабря 2022 года в Испании вступил в силу закон, предполагающий запуск новой визы для сотрудников, работающих удалённо, – International Teleworking Visa.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
@@ -311,10 +311,10 @@
         "renewalPeriod": 24
       }
     ],
-    "Validity period details": "год с возможностью продления. В дальнейшем, до истечения срока действия визы, можно запросить ВНЖ для удалённой работы, который будет действовать до трёх лет с возможностью продления ещё на два года при сохранении оснований.",
-    "Requirements": "Заявителям понадобится представить документальные доказательства того, что они удалённо работают на компанию за пределами Испании с помощью компьютера, телефона или других телекоммуникационных средств, имеют необходимые профессиональные знания для выполнения работы (дипломы высших учебных заведений и бизнес-школ или опыт работы в сфере не менее трёх лет). При этом компания-работодатель должна реально работать не менее года, а иностранец в ней – не менее трёх месяцев.",
-    "Income requirements details": "200% от минимальной месячной заработной платы в стране. В настоящее время эта сумма составляет €2334  в месяц на основного заявителя. Также потребуется ещё €875 в месяц на зависимого супруга и  € 292 в месяц на каждого последующего члена семьи.",
-    "Income requirements": {
+    "validityDetails": "год с возможностью продления. В дальнейшем, до истечения срока действия визы, можно запросить ВНЖ для удалённой работы, который будет действовать до трёх лет с возможностью продления ещё на два года при сохранении оснований.",
+    "requirements": "Заявителям понадобится представить документальные доказательства того, что они удалённо работают на компанию за пределами Испании с помощью компьютера, телефона или других телекоммуникационных средств, имеют необходимые профессиональные знания для выполнения работы (дипломы высших учебных заведений и бизнес-школ или опыт работы в сфере не менее трёх лет). При этом компания-работодатель должна реально работать не менее года, а иностранец в ней – не менее трёх месяцев.",
+    "incomeRequirementsDetails": "200% от минимальной месячной заработной платы в стране. В настоящее время эта сумма составляет €2334  в месяц на основного заявителя. Также потребуется ещё €875 в месяц на зависимого супруга и  € 292 в месяц на каждого последующего члена семьи.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
@@ -323,20 +323,20 @@
       "eachAdditional": 292,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "",
-    "Important": [
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "",
+    "important": [
       "Доказать, что имеют необходимые профессиональные знания для выполнения работы (дипломы высших учебных заведений и бизнес-школ или опыт работы в сфере не менее трёх лет). При этом компания-работодатель должна реально работать не менее года, а иностранец в ней – не менее трёх месяцев."
     ],
-    "Resources": [
+    "resources": [
       "https://pronomad.ru/blog/spain-digital-nomad-visa/"
     ],
     "Help": [
@@ -344,49 +344,49 @@
     ]
   },
   {
-    "Country": "Италия",
-    "Country code": "IT",
-    "Slug": "italy",
-    "Link": "https://www.interno.gov.it/",
-    "Details": "Постановление правительства Италии о выдаче виз цифровым кочевникам вступило в силу 22 марта 2022 года. Точные параметры участия в программе ещё обсуждаются, но уже известно, что это будет разрешение на проживание сроком на один год с возможностью продления.",
-    "Roadmap": [
+    "title": "Италия",
+    "countryCode": "IT",
+    "slug": "italy",
+    "link": "https://www.interno.gov.it/",
+    "details": "Постановление правительства Италии о выдаче виз цифровым кочевникам вступило в силу 22 марта 2022 года. Точные параметры участия в программе ещё обсуждаются, но уже известно, что это будет разрешение на проживание сроком на один год с возможностью продления.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
         "renewal": true
       }
     ],
-    "Validity period details": "",
-    "Requirements": "yet unknown",
-    "Income requirements details": "yet unknown",
-    "Income requirements": {
+    "validityDetails": "",
+    "requirements": "yet unknown",
+    "incomeRequirementsDetails": "yet unknown",
+    "incomeRequirements": {
       "currency": "eur",
       "amount": 700,
       "unit": "month"
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "unknown",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "",
-    "Important": "потребуется получить разрешение на профессиональную деятельность от полиции ДО запроса визы",
-    "Notes": "pronomad says it has residency, 2 years with extending to 5",
-    "Resources": [
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "unknown",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "",
+    "important": "потребуется получить разрешение на профессиональную деятельность от полиции ДО запроса визы",
+    "notes": "pronomad says it has residency, 2 years with extending to 5",
+    "resources": [
       "https://pronomad.ru/blog/italy-digital-nomad-visa/"
     ]
   },
   {
-    "Country": "Кипр",
-    "Country code": "CY",
-    "Slug": "cyprus",
-    "Link": "http://www.moi.gov.cy/",
-    "Details": "15 октября 2021 года Совет министров Кипра утвердил программу выдачи виз цифровым кочевникам. Важно отметить, что в марте 2022 года первоначально установленную квоту в 100 заявителей увеличили до 500.",
-    "Roadmap": [
+    "title": "Кипр",
+    "countryCode": "CY",
+    "slug": "cyprus",
+    "link": "http://www.moi.gov.cy/",
+    "details": "15 октября 2021 года Совет министров Кипра утвердил программу выдачи виз цифровым кочевникам. Важно отметить, что в марте 2022 года первоначально установленную квоту в 100 заявителей увеличили до 500.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
@@ -394,10 +394,10 @@
         "renewalPeriod": 24
       }
     ],
-    "Validity period details": "год с возможностью продления до двух лет",
-    "Requirements": "Для участия в программе заявителю потребуется подтвердить трудоустройство или наличие деловой деятельности за рубежом с небходимым уровнем дохода не менее €3,5 тыс. после вычета налогов (плюс 20% за супруга и 15% за несовершеннолетнего иждивенца). Также заявитель должен оформить медицинскую страховку на сумму не менее €30 тыс., представить справку о несудимости и адрес проживания на Кипре (договор аренды или бронь апартаментов).",
-    "Income requirements details": "не менее €3,5 тыс. после вычета налогов (плюс 20% за супруга и 15% за несовершеннолетнего иждивенца)",
-    "Income requirements": {
+    "validityDetails": "год с возможностью продления до двух лет",
+    "requirements": "Для участия в программе заявителю потребуется подтвердить трудоустройство или наличие деловой деятельности за рубежом с небходимым уровнем дохода не менее €3,5 тыс. после вычета налогов (плюс 20% за супруга и 15% за несовершеннолетнего иждивенца). Также заявитель должен оформить медицинскую страховку на сумму не менее €30 тыс., представить справку о несудимости и адрес проживания на Кипре (договор аренды или бронь апартаментов).",
+    "incomeRequirementsDetails": "не менее €3,5 тыс. после вычета налогов (плюс 20% за супруга и 15% за несовершеннолетнего иждивенца)",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
@@ -406,31 +406,31 @@
       "eachAdditional": 525,
       "beforeTax": false
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "адрес проживания на Кипре (договор аренды или бронь апартаментов)"
     },
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Min insurance": {
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "minInsurance": {
       "currency": "eur",
       "amount": 30000
     },
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "Стоимость выдачи или продления временного вида на жительство – €70. Регистрация в реестре иностранцев – ещё €70.",
-    "Quota": "",
-    "Time to get": "",
-    "Where to get": "на месте"
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "Стоимость выдачи или продления временного вида на жительство – €70. Регистрация в реестре иностранцев – ещё €70.",
+    "quota": "",
+    "timeToGet": "",
+    "whereToGet": "на месте"
   },
   {
-    "Country": "Латвия",
-    "Country code": "LV",
-    "Slug": "latvia",
-    "Link": "https://www.pmlp.gov.lv/",
-    "Details": "Визу цифрового кочевника Латвии могут получить только иностранцы, работающие в компаниях , зарегистрированных в Организации экономического сотрудничества и развития (ОЭСР).",
-    "Roadmap": [
+    "title": "Латвия",
+    "countryCode": "LV",
+    "slug": "latvia",
+    "link": "https://www.pmlp.gov.lv/",
+    "details": "Визу цифрового кочевника Латвии могут получить только иностранцы, работающие в компаниях , зарегистрированных в Организации экономического сотрудничества и развития (ОЭСР).",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
@@ -438,42 +438,42 @@
         "renewalPeriod": 12
       }
     ],
-    "Validity period details": "Виза выдаётся на один год, а затем её можно продлить ещё на год.",
-    "Requirements": "Заявителю потребуется представить доказательство трудоустройства за пределами страны, подтвердить уровень доходов, превышающий 2,5 средней зарплаты жителей Латвии (около €2857),  указать место проживания в стране, оформить медицинскую страховку с минимальной суммой покрытия  €42600.",
-    "Income requirements details": "превышающий 2,5 средней зарплаты жителей Латвии (около €2857)",
-    "Income requirements": {
+    "validityDetails": "Виза выдаётся на один год, а затем её можно продлить ещё на год.",
+    "requirements": "Заявителю потребуется представить доказательство трудоустройства за пределами страны, подтвердить уровень доходов, превышающий 2,5 средней зарплаты жителей Латвии (около €2857),  указать место проживания в стране, оформить медицинскую страховку с минимальной суммой покрытия  €42600.",
+    "incomeRequirementsDetails": "превышающий 2,5 средней зарплаты жителей Латвии (около €2857)",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
       "amount": 2857,
       "beforeTax": true
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "указать место проживания в стране"
     },
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Min insurance": {
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "minInsurance": {
       "currency": "eur",
       "amount": 42600
     },
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "Заявители не могут спонсировать иждивенцев по цифровой визе цифрового кочевника.",
-    "Cost": "Стоимость оформления визы составит €60.",
-    "Quota": "",
-    "Time to get": "",
-    "Notes": "pronomad says 3192 euro",
-    "Important": "работодатель должен быть из страны OECD"
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "Заявители не могут спонсировать иждивенцев по цифровой визе цифрового кочевника.",
+    "cost": "Стоимость оформления визы составит €60.",
+    "quota": "",
+    "timeToGet": "",
+    "notes": "pronomad says 3192 euro",
+    "important": "работодатель должен быть из страны OECD"
   },
   {
-    "Country": "Мальта",
-    "Country code": "MT",
-    "Slug": "malta",
-    "Link": "https://nomad.residencymalta.gov.mt/",
-    "Details": "Специальный ВНЖ Мальты – nomad residence permit (NRP) – рассчитан на цифровых кочевников, фрилансеров, имеющих клиентов в других странах, и владельцев зарубежного бизнеса.",
-    "Roadmap": [
+    "title": "Мальта",
+    "countryCode": "MT",
+    "slug": "malta",
+    "link": "https://nomad.residencymalta.gov.mt/",
+    "details": "Специальный ВНЖ Мальты – nomad residence permit (NRP) – рассчитан на цифровых кочевников, фрилансеров, имеющих клиентов в других странах, и владельцев зарубежного бизнеса.",
+    "roadmap": [
       {
         "type": "residency",
         "period": 12,
@@ -483,10 +483,10 @@
         "details": "Общий срок продления не более 3 лет"
       }
     ],
-    "Validity period details": "Разрешение на длительное проживание выдаётся сроком на один год с возможностью продления дважды на общий срок не более трех лет.",
-    "Requirements": "Также необходимо  представить контракт или другие свидетельства работы или деловой активности с получением дохода из-за рубежа, а также медицинскую страховку и подтверждение постоянного адреса на Мальте. Кроме того, нужно будет пройти базовую проверку на благонадёжность.",
-    "Income requirements details": "наличие месячного дохода до вычета налогов в размере не менее €2,7 тыс.+ €255 в месяц на каждого зависимого члена семьи.",
-    "Income requirements": {
+    "validityDetails": "Разрешение на длительное проживание выдаётся сроком на один год с возможностью продления дважды на общий срок не более трех лет.",
+    "requirements": "Также необходимо  представить контракт или другие свидетельства работы или деловой активности с получением дохода из-за рубежа, а также медицинскую страховку и подтверждение постоянного адреса на Мальте. Кроме того, нужно будет пройти базовую проверку на благонадёжность.",
+    "incomeRequirementsDetails": "наличие месячного дохода до вычета налогов в размере не менее €2,7 тыс.+ €255 в месяц на каждого зависимого члена семьи.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
@@ -494,108 +494,108 @@
       "eachAdditional": 270,
       "beforeTax": true
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "подтверждение постоянного адреса на Мальте"
     },
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "€300",
-    "Quota": "",
-    "Time to get": "",
-    "Resources": [
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "€300",
+    "quota": "",
+    "timeToGet": "",
+    "resources": [
       "https://prian.ru/news/malta-predstavila-vid-na-zhitelstvo-dlya-cifrovyh-kochevnikov.html",
       "https://pronomad.ru/blog/malta-nomad-visa/"
     ],
-    "Important": [
+    "important": [
       "В данный момент недоступна россиянам и белорусам"
     ]
   },
   {
-    "Country": "Нидерланды",
-    "Country code": "NL",
-    "Slug": "netherlands",
-    "Link": "https://ind.nl/",
-    "Details": "",
-    "Roadmap": [
+    "title": "Нидерланды",
+    "countryCode": "NL",
+    "slug": "netherlands",
+    "link": "https://ind.nl/",
+    "details": "",
+    "roadmap": [
       {
         "type": "residency",
         "period": 24
       }
     ],
-    "Validity period details": "",
-    "Requirements": "наличие клиента в Нидерландах, получить разрешение на фриланс в Нидерландах",
-    "Income requirements details": "",
-    "Income requirements": {
+    "validityDetails": "",
+    "requirements": "наличие клиента в Нидерландах, получить разрешение на фриланс в Нидерландах",
+    "incomeRequirementsDetails": "",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
       "amount": 1462,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": true,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "",
-    "Resources": [
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": true,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "",
+    "resources": [
       "https://pronomad.ru/blog/freelance-visa-netherlands/"
     ]
   },
   {
-    "Country": "Норвегия",
-    "Country code": "NO",
-    "Slug": "norway",
-    "Link": "https://www.udi.no/",
-    "Details": "По визе независимого зарубежного предпринимателя (independent contractor visa)",
-    "Roadmap": [
+    "title": "Норвегия",
+    "countryCode": "NO",
+    "slug": "norway",
+    "link": "https://www.udi.no/",
+    "details": "По визе независимого зарубежного предпринимателя (independent contractor visa)",
+    "roadmap": [
       {
         "type": "visa",
         "period": 24
       }
     ],
-    "Validity period details": "до 2 лет",
-    "Requirements": "Для получения визы заявитель должен владеть собственным бизнесом или работать удалённо на компанию, расположенную за пределами Норвегии. Также необходимо продемонстрировать соответствующую квалификацию по своей профессии, представить подтверждение адреса проживания в Норвегии. /// Заявитель обязан иметь как минимум одного клиента из Норвегии с договором, который указывал бы, что плата за услуги равна минимальной оплате труда местного квалифицированного специалиста или выше.",
-    "Income requirements details": "Соискателю потребуется подтвердить уровень дохода в размере не менее €35 719 в год до уплаты налогов.",
-    "Income requirements": {
+    "validityDetails": "до 2 лет",
+    "requirements": "Для получения визы заявитель должен владеть собственным бизнесом или работать удалённо на компанию, расположенную за пределами Норвегии. Также необходимо продемонстрировать соответствующую квалификацию по своей профессии, представить подтверждение адреса проживания в Норвегии. /// Заявитель обязан иметь как минимум одного клиента из Норвегии с договором, который указывал бы, что плата за услуги равна минимальной оплате труда местного квалифицированного специалиста или выше.",
+    "incomeRequirementsDetails": "Соискателю потребуется подтвердить уровень дохода в размере не менее €35 719 в год до уплаты налогов.",
+    "incomeRequirements": {
       "unit": "year",
       "unitCount": 1,
       "currency": "eur",
       "amount": 35719,
       "beforeTax": true
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "представить подтверждение адреса проживания в Норвегии"
     },
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": true,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "€600",
-    "Quota": "",
-    "Time to get": "",
-    "Notes": "pronomad says it's residency. да (но не идет в счет ПМЖ). 2 года, с продлением до 6 лет. monthly income €3250",
-    "Resources": [
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": true,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "€600",
+    "quota": "",
+    "timeToGet": "",
+    "notes": "pronomad says it's residency. да (но не идет в счет ПМЖ). 2 года, с продлением до 6 лет. monthly income €3250",
+    "resources": [
       "https://pronomad.ru/blog/norway-nomad-visa/"
     ]
   },
   {
-    "Country": "Португалия",
-    "Country code": "PT",
-    "Slug": "portugal",
-    "Link": "https://vistos.mne.gov.pt/",
-    "Details": "Португалия предлагает временный ВНЖ (residency visa for independent work purposes or entrepreneurs). Эта программа подойдёт тем, кто уже сотрудничает с клиентами в стране. Процесс оформления ВНЖ требует подготовки и может затянуться на месяцы.",
-    "Roadmap": [
+    "title": "Португалия",
+    "countryCode": "PT",
+    "slug": "portugal",
+    "link": "https://vistos.mne.gov.pt/",
+    "details": "Португалия предлагает временный ВНЖ (residency visa for independent work purposes or entrepreneurs). Эта программа подойдёт тем, кто уже сотрудничает с клиентами в стране. Процесс оформления ВНЖ требует подготовки и может затянуться на месяцы.",
+    "roadmap": [
       {
         "type": "residency",
         "period": 12,
@@ -603,44 +603,44 @@
         "renewalPeriod": 48
       }
     ],
-    "Validity period details": "один год с возможностью продления до пяти лет",
-    "Requirements": "Перед подачей документов фрилансеру придётся получить налоговый номер и открыть местный банковский счёт, а значит, посетить страну заранее или въехать по туристической визе, а уже потом обратиться в миграционную службу SEF. /// Заявителю необходимо представить трудовой договор или договор оказания услуг в рамках самостоятельной трудовой деятельности, подтвердить соответствие необходимым профессиональным требованиям, если указанная профессия требует специальной квалификации в Португалии. Важно иметь хотя бы какой-то контракт или контрагента в Португалии. /// Помимо этого, заявителю нужно подтвердить место предполагаемого проживания. /// Помимо этого, потребуется оформить медицинскую страховку и справку об отсутствии судимости.",
-    "Income requirements details": "ежемесячный доход, эквивалентный четырём минимальным  размерам оплаты труда в Португалии в месяц, что составляет около  €2820.",
-    "Income requirements": {
+    "validityDetails": "один год с возможностью продления до пяти лет",
+    "requirements": "Перед подачей документов фрилансеру придётся получить налоговый номер и открыть местный банковский счёт, а значит, посетить страну заранее или въехать по туристической визе, а уже потом обратиться в миграционную службу SEF. /// Заявителю необходимо представить трудовой договор или договор оказания услуг в рамках самостоятельной трудовой деятельности, подтвердить соответствие необходимым профессиональным требованиям, если указанная профессия требует специальной квалификации в Португалии. Важно иметь хотя бы какой-то контракт или контрагента в Португалии. /// Помимо этого, заявителю нужно подтвердить место предполагаемого проживания. /// Помимо этого, потребуется оформить медицинскую страховку и справку об отсутствии судимости.",
+    "incomeRequirementsDetails": "ежемесячный доход, эквивалентный четырём минимальным  размерам оплаты труда в Португалии в месяц, что составляет около  €2820.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
       "amount": 2820,
       "beforeTax": true
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "подтвердить место предполагаемого проживания"
     },
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Local bank account": true,
-    "Criminal record": true,
-    "Needs client from country": true,
-    "Bringing family": true,
-    "Family details": "да (но с визой сопровождающего)",
-    "Cost": "€90",
-    "Quota": "",
-    "Time to get": "",
-    "Important": [
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "localBankAccount": true,
+    "criminalRecord": true,
+    "needsLocalClients": true,
+    "bringingFamily": true,
+    "familyDetails": "да (но с визой сопровождающего)",
+    "cost": "€90",
+    "quota": "",
+    "timeToGet": "",
+    "important": [
       "Придётся получить налоговый номер и открыть местный банковский счёт, а значит, посетить страну заранее или въехать по туристической визе, а уже потом обратиться в миграционную службу SEF."
     ],
-    "Notes": "pronomad now says 3040 eur.",
-    "Resources": [
+    "notes": "pronomad now says 3040 eur.",
+    "resources": [
       "https://pronomad.ru/blog/portugal-digital-nomad-visa/"
     ]
   },
   {
-    "Country": "Румыния",
-    "Country code": "RO",
-    "Slug": "romania",
-    "Link": "https://www.mae.ro/",
-    "Details": "В январе 2022 года правительство Румынии опубликовало новый закон, разрешающий иностранцам получать шестимесячную визу цифрового кочевника",
-    "Roadmap": [
+    "title": "Румыния",
+    "countryCode": "RO",
+    "slug": "romania",
+    "link": "https://www.mae.ro/",
+    "details": "В январе 2022 года правительство Румынии опубликовало новый закон, разрешающий иностранцам получать шестимесячную визу цифрового кочевника",
+    "roadmap": [
       {
         "type": "visa",
         "period": 6,
@@ -648,10 +648,10 @@
         "renewalPeriod": 12
       }
     ],
-    "Validity period details": "6 месяцев",
-    "Requirements": "Заявители должны быть трудоустроены за границей или владеть компанией, зарегистрированной за границей, не менее трёх лет до подачи заявления. Соискатели также должны представить трудовой договор или свидетельство о регистрации компании за пределами Румынии, медицинскую страховку и справку об отсутствии судимости.",
-    "Income requirements details": "ежемесячный доход, в три раза превышающий среднюю зарплату до вычета налогов по Румынии, то есть не менее €3,7 тыс. Такой минимальный доход должен сохраняться в течение шести месяцев до подачи заявления на визу и в течение всего срока её действия.",
-    "Income requirements": {
+    "validityDetails": "6 месяцев",
+    "requirements": "Заявители должны быть трудоустроены за границей или владеть компанией, зарегистрированной за границей, не менее трёх лет до подачи заявления. Соискатели также должны представить трудовой договор или свидетельство о регистрации компании за пределами Румынии, медицинскую страховку и справку об отсутствии судимости.",
+    "incomeRequirementsDetails": "ежемесячный доход, в три раза превышающий среднюю зарплату до вычета налогов по Румынии, то есть не менее €3,7 тыс. Такой минимальный доход должен сохраняться в течение шести месяцев до подачи заявления на визу и в течение всего срока её действия.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
@@ -660,133 +660,133 @@
       "monthsBefore": 6,
       "shouldSustain": true
     },
-    "Min years of experience": 3,
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "unknown",
-    "Cost": "€120",
-    "Quota": "",
-    "Time to get": "",
-    "Important": [
+    "minYearsOfExperience": 3,
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "unknown",
+    "cost": "€120",
+    "quota": "",
+    "timeToGet": "",
+    "important": [
       "Заявители должны быть трудоустроены за границей или владеть компанией, зарегистрированной за границей, не менее трёх лет до подачи заявления."
     ],
-    "Resources": [
+    "resources": [
       "https://pronomad.ru/blog/romania-digital-nomad-visa/"
     ],
-    "Notes": "pronomad says they have residency. and income 4200"
+    "notes": "pronomad says they have residency. and income 4200"
   },
   {
-    "Country": "Северная Македония",
-    "Country code": "MK",
-    "Slug": "north-macedonia",
-    "Link": "",
-    "Details": "В конце января 2021 года Северная Македония объявила о работе над законом о цифровых кочевниках. Страна планирует привлечь удалённых работников и стартаперов. Но более конкретной информации с тех пор не появилось",
-    "Validity period details": "",
-    "Requirements": "",
-    "Income requirements details": "",
-    "Income requirements": null,
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "unknown",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "",
-    "Status": "wip"
+    "title": "Северная Македония",
+    "countryCode": "MK",
+    "slug": "north-macedonia",
+    "link": "",
+    "details": "В конце января 2021 года Северная Македония объявила о работе над законом о цифровых кочевниках. Страна планирует привлечь удалённых работников и стартаперов. Но более конкретной информации с тех пор не появилось",
+    "validityDetails": "",
+    "requirements": "",
+    "incomeRequirementsDetails": "",
+    "incomeRequirements": null,
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "unknown",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "",
+    "status": "wip"
   },
   {
-    "Country": "Сербия",
-    "Country code": "RS",
-    "Slug": "serbia",
-    "Link": "https://prian.ru/news/serbiya-predostavit-vnzh-rabotayushchim-udalyonno-inostrancam.html",
-    "Details": "ВНЖ и разрешение на работу на годовой срок",
-    "Roadmap": [
+    "title": "Сербия",
+    "countryCode": "RS",
+    "slug": "serbia",
+    "link": "https://prian.ru/news/serbiya-predostavit-vnzh-rabotayushchim-udalyonno-inostrancam.html",
+    "details": "ВНЖ и разрешение на работу на годовой срок",
+    "roadmap": [
       {
         "type": "residency",
         "period": 12
       }
     ],
-    "Validity period details": "1 год",
-    "Requirements": "",
-    "Income requirements details": "от €3,5 тыс. до вычета налогов",
-    "Income requirements": {
+    "validityDetails": "1 год",
+    "requirements": "",
+    "incomeRequirementsDetails": "от €3,5 тыс. до вычета налогов",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
       "amount": 3500,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "unknown",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "unknown",
+    "cost": "",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Франция",
-    "Country code": "FR",
-    "Slug": "france",
-    "Link": "",
-    "Details": "Во Франции нет специальной программы для цифровых кочевников, однако страна предоставляет долгосрочную визу для предпринимателей и специалистов свободных профессий (long-stay visa)12. Она даёт возможность фрилансерам оставаться здесь до года при условии, что владелец подаст заявку на подтверждение визы на 15-й день прибытия или раньше.",
-    "Roadmap": [
+    "title": "Франция",
+    "countryCode": "FR",
+    "slug": "france",
+    "link": "",
+    "details": "Во Франции нет специальной программы для цифровых кочевников, однако страна предоставляет долгосрочную визу для предпринимателей и специалистов свободных профессий (long-stay visa)12. Она даёт возможность фрилансерам оставаться здесь до года при условии, что владелец подаст заявку на подтверждение визы на 15-й день прибытия или раньше.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12
       }
     ],
-    "Validity period details": "до года",
-    "Requirements": "приложить справку о несудимости, а также оформить медицинскую страховку и подтвердить наличие места проживания во Франции.",
-    "Income requirements details": "около €3 тыс. в месяц",
-    "Income requirements": {
+    "validityDetails": "до года",
+    "requirements": "приложить справку о несудимости, а также оформить медицинскую страховку и подтвердить наличие места проживания во Франции.",
+    "incomeRequirementsDetails": "около €3 тыс. в месяц",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
       "amount": 3000,
       "beforeTax": true
     },
-    "Insurance requirements": true,
-    "Address requirements": {
+    "insuranceRequirements": true,
+    "addressRequirements": {
       "details": "подтвердить наличие места проживания во Франции"
     },
-    "Address requirements details": "",
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "unknown",
-    "Cost": "€99",
-    "Quota": "",
-    "Time to get": "",
-    "Where to get":"на месте"
+    "addressRequirementsDetails": "",
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "unknown",
+    "cost": "€99",
+    "quota": "",
+    "timeToGet": "",
+    "whereToGet":"на месте"
   },
   {
-    "Country": "Хорватия",
-    "Country code": "HR",
-    "Slug": "croatia",
-    "Link": "https://mup.gov.hr/",
-    "Details": "",
-    "Roadmap": [
+    "title": "Хорватия",
+    "countryCode": "HR",
+    "slug": "croatia",
+    "link": "https://mup.gov.hr/",
+    "details": "",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
         "renewal": false
       }
     ],
-    "Validity period details": "до одного года и не может быть продлена. Новое заявление можно подать лишь через шесть месяцев после окончания действия предыдущей визы.",
-    "Requirements": "Также нужно предъявить контракт с зарубежной компанией, справку об отсутствии судимостей, медицинскую страховку и постоянный адрес в Хорватии.",
-    "Income requirements details": "доход, в 2,5 раза превышающий среднюю зарплату в Хорватии до вычета налогов. В 2022 году эта сумма эквивалентна €2 250. При включении в заявку иждивенцев порог увеличивается на 10%.",
-    "Income requirements": {
+    "validityDetails": "до одного года и не может быть продлена. Новое заявление можно подать лишь через шесть месяцев после окончания действия предыдущей визы.",
+    "requirements": "Также нужно предъявить контракт с зарубежной компанией, справку об отсутствии судимостей, медицинскую страховку и постоянный адрес в Хорватии.",
+    "incomeRequirementsDetails": "доход, в 2,5 раза превышающий среднюю зарплату в Хорватии до вычета налогов. В 2022 году эта сумма эквивалентна €2 250. При включении в заявку иждивенцев порог увеличивается на 10%.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
@@ -794,34 +794,34 @@
       "eachAdditional": 225,
       "beforeTax": true
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "постоянный адрес в Хорватии"
     },
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "Ближайшие родственники заявителя могут переехать в страну на основании воссоединения семьи.",
-    "Cost": "€157 для тех, кто запрашивает визу из-за границы, и €87 – для тех, кто уже находится в стране.",
-    "Quota": "",
-    "Time to get": "",
-    "Important": [
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "Ближайшие родственники заявителя могут переехать в страну на основании воссоединения семьи.",
+    "cost": "€157 для тех, кто запрашивает визу из-за границы, и €87 – для тех, кто уже находится в стране.",
+    "quota": "",
+    "timeToGet": "",
+    "important": [
       "Не может быть продлена. Новое заявление можно подать лишь через шесть месяцев после окончания действия предыдущей визы."
     ],
-    "Resources": [
+    "resources": [
       "https://prian.ru/news/vlasti-horvatii-vypustili-rukovodstvo-po-oformleniyu-vizy-cifrovogo-kochevnika.html",
       "https://pronomad.ru/blog/croatia-nomad-visa/"
     ],
-    "Notes": "pronomad says residency true. also income 2540"
+    "notes": "pronomad says residency true. also income 2540"
   },
   {
-    "Country": "Черногория",
-    "Country code": "ME",
-    "Slug": "montenegro",
-    "Link": "https://www.gov.me/",
-    "Details": "В конце 2021 года правительство Черногории открыло общественные дебаты, посвящённые созданию программы по привлечению цифровых кочевников. Летом 2022 появилась информация о внесении необходимых поправок в закон «Об иностранцах Черногории» (Zakon o strancima Crne Gore) и принятии сопутствующих корректировок, нацеленных на легализацию резидентов в статусе цифровых кочевников.",
-    "Roadmap": [
+    "title": "Черногория",
+    "countryCode": "ME",
+    "slug": "montenegro",
+    "link": "https://www.gov.me/",
+    "details": "В конце 2021 года правительство Черногории открыло общественные дебаты, посвящённые созданию программы по привлечению цифровых кочевников. Летом 2022 появилась информация о внесении необходимых поправок в закон «Об иностранцах Черногории» (Zakon o strancima Crne Gore) и принятии сопутствующих корректировок, нацеленных на легализацию резидентов в статусе цифровых кочевников.",
+    "roadmap": [
       {
         "type": "residency",
         "period": 24,
@@ -830,82 +830,82 @@
         "renewalPeriod": 24
       }
     ],
-    "Leads to permanent": false,
-    "Validity period details": "Данный тип ВНЖ выдаётся сроком на два года с возможностью продления ещё на два года. По истечении четырёх лет на новый вид на жительство можно подавать только после перерыва в шесть месяцев. К ПМЖ данный статус также не ведёт.",
-    "Requirements": "Жильё в собственности или аренде. Медицинское и пенсионное страхование c места работы",
-    "Income requirements details": "не менее трёх минимальных заработных плат в Черногории – на сегодняшний день это €1 350",
-    "Income requirements": {
+    "leadsToPermanent": false,
+    "validityDetails": "Данный тип ВНЖ выдаётся сроком на два года с возможностью продления ещё на два года. По истечении четырёх лет на новый вид на жительство можно подавать только после перерыва в шесть месяцев. К ПМЖ данный статус также не ведёт.",
+    "requirements": "Жильё в собственности или аренде. Медицинское и пенсионное страхование c места работы",
+    "incomeRequirementsDetails": "не менее трёх минимальных заработных плат в Черногории – на сегодняшний день это €1 350",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
       "amount": 1350,
       "beforeTax": true
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "Жильё в собственности или аренде"
     },
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "",
-    "Where to get": "на месте",
-    "Resources": [
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "",
+    "whereToGet": "на месте",
+    "resources": [
       "https://prian.ru/news/chernogoriya-sobiraetsya-privlekat-cifrovyh-kochevnikov.html",
       "https://pronomad.ru/blog/montenegro-digital-nomad-visa/"
     ]
   },
   {
-    "Country": "Чехия",
-    "Country code": "CZ",
-    "Slug": "czech-republic",
-    "Link": "https://prian.ru/news/chehiya-utverdila-programmu-dlya-cifrovyh-kochevnikov-no-tolko-iz-opredelyonnyh-stran.html",
-    "Details": "Летом 2023 года чешское правительство утвердило новую программу экономической миграции для цифровых кочевников. Но на данный момент программа будет доступна только для граждан восьми стран мира: Австралии, Японии, Канады, Южной Кореи, Новой Зеландии, Великобритании, США и Тайваня. Для жителей других стран в Чехии есть специальная категория бизнес-визы (živnostenské oprávnění), которая подойдёт для цифровых кочевников-фрилансеров.",
-    "Roadmap": [
+    "title": "Чехия",
+    "countryCode": "CZ",
+    "slug": "czech-republic",
+    "link": "https://prian.ru/news/chehiya-utverdila-programmu-dlya-cifrovyh-kochevnikov-no-tolko-iz-opredelyonnyh-stran.html",
+    "details": "Летом 2023 года чешское правительство утвердило новую программу экономической миграции для цифровых кочевников. Но на данный момент программа будет доступна только для граждан восьми стран мира: Австралии, Японии, Канады, Южной Кореи, Новой Зеландии, Великобритании, США и Тайваня. Для жителей других стран в Чехии есть специальная категория бизнес-визы (živnostenské oprávnění), которая подойдёт для цифровых кочевников-фрилансеров.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
         "renewal": true
       }
     ],
-    "Validity period details": "один год с возможностью продления",
-    "Requirements": "Заявитель должен доказать, что его бизнес имеет связь с Чешской Республикой, а также получить лицензию на осуществление своей деятельности. В отличие от многих других программ для цифровых кочевников, эта виза позволяет работать с местными гражданами и компаниями. Заявителю понадобится подтвердить, что у него есть жильё в Чехии минимум на год, продемонстрировать достаточный уровень дохода – не менее CZK 124,5 тыс. ($5,6 тыс. на человека), оформить страховку на всё время пребывания в стране, а также предъявить справку об отсутствии судимости.",
-    "Income requirements details": "не менее CZK 124,5 тыс. ($5,6 тыс. на человека)",
-    "Income requirements": {
+    "validityDetails": "один год с возможностью продления",
+    "requirements": "Заявитель должен доказать, что его бизнес имеет связь с Чешской Республикой, а также получить лицензию на осуществление своей деятельности. В отличие от многих других программ для цифровых кочевников, эта виза позволяет работать с местными гражданами и компаниями. Заявителю понадобится подтвердить, что у него есть жильё в Чехии минимум на год, продемонстрировать достаточный уровень дохода – не менее CZK 124,5 тыс. ($5,6 тыс. на человека), оформить страховку на всё время пребывания в стране, а также предъявить справку об отсутствии судимости.",
+    "incomeRequirementsDetails": "не менее CZK 124,5 тыс. ($5,6 тыс. на человека)",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
       "amount": 5600,
       "beforeTax": true
     },
-    "Address requirements": {
+    "addressRequirements": {
       "rentPeriod": 12,
       "details": "подтвердить, что у него есть жильё в Чехии минимум на год"
     },
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": true,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "Сбор за оформление долгосрочной бизнес-визы составляет 2,5 тыс. чешских крон (около $200), а торговая лицензия стоит 1 тыс. чешских крон (около $46).",
-    "Quota": "",
-    "Time to get": "",
-    "Important": [
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": true,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "Сбор за оформление долгосрочной бизнес-визы составляет 2,5 тыс. чешских крон (около $200), а торговая лицензия стоит 1 тыс. чешских крон (около $46).",
+    "quota": "",
+    "timeToGet": "",
+    "important": [
       "Заявитель должен доказать, что его бизнес имеет связь с Чешской Республикой, а также получить лицензию на осуществление своей деятельности."
     ]
   },
   {
-    "Country": "Эстония",
-    "Country code": "EE",
-    "Slug": "estonia",
-    "Link": "https://www.e-resident.gov.ee/nomadvisa/",
-    "Details": "digital nomad visa, DNV.",
-    "Roadmap": [
+    "title": "Эстония",
+    "countryCode": "EE",
+    "slug": "estonia",
+    "link": "https://www.e-resident.gov.ee/nomadvisa/",
+    "details": "digital nomad visa, DNV.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
@@ -913,11 +913,11 @@
         "renewalPeriod": 6
       }
     ],
-    "Leads to permanent": false,
-    "Validity period details": "до года. Затем можно подать документы на новую визу сроком на шесть месяцев. После пребывания в Эстонии в течение полутора лет вы должны будете покинуть страну.",
-    "Requirements": "",
-    "Income requirements details": "от €3 504 до вычета налогов в течение шести месяцев до подачи документов",
-    "Income requirements": {
+    "leadsToPermanent": false,
+    "validityDetails": "до года. Затем можно подать документы на новую визу сроком на шесть месяцев. После пребывания в Эстонии в течение полутора лет вы должны будете покинуть страну.",
+    "requirements": "",
+    "incomeRequirementsDetails": "от €3 504 до вычета налогов в течение шести месяцев до подачи документов",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
@@ -925,31 +925,31 @@
       "beforeTax": true,
       "monthsBefore": 6
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "€80 или €100 – в зависимости от того, на какой срок вы планируете переехать",
-    "Quota": "",
-    "Time to get": "",
-    "Important": [
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "€80 или €100 – в зависимости от того, на какой срок вы планируете переехать",
+    "quota": "",
+    "timeToGet": "",
+    "important": [
       "В данный момент недоступна россиянам и белорусам"
     ],
-    "Resources": [
+    "resources": [
       "https://pronomad.ru/blog/estonia-nomad-visa/"
     ],
-    "Notes": "pronomad says 4500 eur"
+    "notes": "pronomad says 4500 eur"
   },
   {
-    "Country": "Индонезия",
-    "Country code": "ID",
-    "Slug": "indonesia",
-    "Link": "",
-    "Details": "",
-    "Roadmap": [
+    "title": "Индонезия",
+    "countryCode": "ID",
+    "slug": "indonesia",
+    "link": "",
+    "details": "",
+    "roadmap": [
       {
         "type": "visa",
         "period": 60,
@@ -957,31 +957,31 @@
         "renewalPeriod": 120
       }
     ],
-    "Validity period details": "пять и десять лет",
-    "Requirements": "",
-    "Income requirements details": "у кого на банковских счетах не менее 2 млрд рупий ($130 тыс.)",
-    "Money on bank account": {
+    "validityDetails": "пять и десять лет",
+    "requirements": "",
+    "incomeRequirementsDetails": "у кого на банковских счетах не менее 2 млрд рупий ($130 тыс.)",
+    "moneyOnBankAccount": {
       "currency": "usd",
       "amount": 130000
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Малайзия",
-    "Country code": "MY",
-    "Slug": "malaysia",
-    "Link": "https://mdec.my/derantau",
-    "Details": "В конце 2022 года правительство Малайзии совместно с корпорацией цифровой экономики Малайзии (MDEC) объявили о запуске новой визы для цифровых кочевников в рамках программы DE Rantau. Professional visit pass (Pas Lawatan Ikhtisas, PLIK). Программа подразумевает размещение участников в специальных «хабах» DE Rantau (предварительно проверенном жилье, оборудованном для цифровых кочевников).",
-    "Roadmap": [
+    "title": "Малайзия",
+    "countryCode": "MY",
+    "slug": "malaysia",
+    "link": "https://mdec.my/derantau",
+    "details": "В конце 2022 года правительство Малайзии совместно с корпорацией цифровой экономики Малайзии (MDEC) объявили о запуске новой визы для цифровых кочевников в рамках программы DE Rantau. Professional visit pass (Pas Lawatan Ikhtisas, PLIK). Программа подразумевает размещение участников в специальных «хабах» DE Rantau (предварительно проверенном жилье, оборудованном для цифровых кочевников).",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
@@ -990,206 +990,206 @@
         "details": "от 3 до 12 месяцев"
       }
     ],
-    "Validity period details": "от 3 до 12 месяцев с возможностью продления на дополнительный срок до 12 месяцев.",
-    "Requirements": "Профессия заявителя должна быть связана со сферой IT, цифровым маркетингом, созданием или разработкой цифрового контента. Также потребуется медицинская страховка, справка о несудимости и сертификат о высшем образовании. Кандидатам нужно зарегистрироваться на портале иностранных кочевников MDEC, заполнить заявку и прикрепить сканы необходимых документов.",
-    "Income requirements details": "Ежегодный доход должен составлять от $24 тыс. в год.",
-    "Income requirements": {
+    "validityDetails": "от 3 до 12 месяцев с возможностью продления на дополнительный срок до 12 месяцев.",
+    "requirements": "Профессия заявителя должна быть связана со сферой IT, цифровым маркетингом, созданием или разработкой цифрового контента. Также потребуется медицинская страховка, справка о несудимости и сертификат о высшем образовании. Кандидатам нужно зарегистрироваться на портале иностранных кочевников MDEC, заполнить заявку и прикрепить сканы необходимых документов.",
+    "incomeRequirementsDetails": "Ежегодный доход должен составлять от $24 тыс. в год.",
+    "incomeRequirements": {
       "unit": "year",
       "unitCount": 1,
       "currency": "usd",
       "amount": 24000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "Срок обработки заявления составляет шесть – восемь недель. В случае одобрения потребуется ещё неделя для вклейки в паспорт."
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "Срок обработки заявления составляет шесть – восемь недель. В случае одобрения потребуется ещё неделя для вклейки в паспорт."
   },
   {
-    "Country": "ОАЭ",
-    "Country code": "AE",
-    "Slug": "united-arab-emirates",
-    "Link": "https://prian.ru/news/dubay-budet-vydavat-vid-na-zhitelstvo-cifrovym-kochevnikam.html",
-    "Details": "Программа для удалённых работников в Дубае рассчитана на иностранцев с высокими доходами.",
-    "Roadmap": [
+    "title": "ОАЭ",
+    "countryCode": "AE",
+    "slug": "united-arab-emirates",
+    "link": "https://prian.ru/news/dubay-budet-vydavat-vid-na-zhitelstvo-cifrovym-kochevnikam.html",
+    "details": "Программа для удалённых работников в Дубае рассчитана на иностранцев с высокими доходами.",
+    "roadmap": [
       {
         "type": "residency",
         "period": 12,
         "renewal": true
       }
     ],
-    "Validity period details": "ВНЖ выдаётся на один год с возможностью продления.",
-    "Requirements": "Также эта опция доступна собственникам компаний, при условии что они владеют ими не менее года и получают ежемесячный доход от $5 тыс.",
-    "Income requirements details": "от $5 тыс. в месяц",
-    "Income requirements": {
+    "validityDetails": "ВНЖ выдаётся на один год с возможностью продления.",
+    "requirements": "Также эта опция доступна собственникам компаний, при условии что они владеют ими не менее года и получают ежемесячный доход от $5 тыс.",
+    "incomeRequirementsDetails": "от $5 тыс. в месяц",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
       "amount": 5000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "Разрешение на проживание будет стоить $611 . Эта сумма включает в себя сбор за подачу заявления в размере $287, сборы за обработку,  взнос на медицинское страхование и получение удостоверения личности.",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "Разрешение на проживание будет стоить $611 . Эта сумма включает в себя сбор за подачу заявления в размере $287, сборы за обработку,  взнос на медицинское страхование и получение удостоверения личности.",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Таиланд (план)",
-    "Country code": "TH",
-    "Slug": "thailand",
-    "Link": "",
-    "Details": "Виза для цифровых кочевников в Таиланде находится на стадии обсуждения, однако основные детали уже известны. Власти страны хотят расширить применение многократной смарт-визы, которая появилась в 2018 году, но пока не получила широкого распространения.",
-    "Roadmap": [
+    "title": "Таиланд (план)",
+    "countryCode": "TH",
+    "slug": "thailand",
+    "link": "",
+    "details": "Виза для цифровых кочевников в Таиланде находится на стадии обсуждения, однако основные детали уже известны. Власти страны хотят расширить применение многократной смарт-визы, которая появилась в 2018 году, но пока не получила широкого распространения.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 48
       }
     ],
-    "Validity period details": "до четырёх лет",
-    "Requirements": "Иностранцам, которые предъявят контракт с работодателем за границей на срок от шести месяцев, а также подтвердят наличие квалификации и опыта, разрешат находиться в стране до четырёх лет и привезти свои семьи. Кроме того, в первые 90 дней пребывания в стране не нужно будет отчитываться в иммиграционной службе – здесь это стандартная процедура для иностранцев. Но! В Таиланде существует категория долгосрочной визы (long term resident visa), которая позволяет жить и работать в королевстве до десяти лет. В мае 2022 года правительство страны решило вдвое снизить стоимость сбора за выдачу ВНЖ до 50 тыс. батов ($1,5 тыс.), и она стала достойной опцией для цифровых кочевников. /// Претендентам на получение визы необходимо подтвердить наличие трудового контракта или договор подряда с тайской или зарубежной компанией, а также иметь опыт работы в соответствующей сфере не менее пяти лет за последние десять лет до подачи заявления. /// А ещё потребуется приобрести медицинскую страховку на сумму покрытия не менее $50 тыс. на первые десять месяцев пребывания в королевстве или открыть депозит в размере не менее $100 тыс. в местном банке или за границей за 12 месяцев до подачи заявления на визу.",
-    "Income requirements details": "Доход заявителя должен быть не менее $80 тыс. за последние два года. В случае, если доход  меньше, соискатель должен быть обладателем степени магистра, привлекать финансирование, или владеть интеллектуальной собственностью.",
-    "Income requirements": {
+    "validityDetails": "до четырёх лет",
+    "requirements": "Иностранцам, которые предъявят контракт с работодателем за границей на срок от шести месяцев, а также подтвердят наличие квалификации и опыта, разрешат находиться в стране до четырёх лет и привезти свои семьи. Кроме того, в первые 90 дней пребывания в стране не нужно будет отчитываться в иммиграционной службе – здесь это стандартная процедура для иностранцев. Но! В Таиланде существует категория долгосрочной визы (long term resident visa), которая позволяет жить и работать в королевстве до десяти лет. В мае 2022 года правительство страны решило вдвое снизить стоимость сбора за выдачу ВНЖ до 50 тыс. батов ($1,5 тыс.), и она стала достойной опцией для цифровых кочевников. /// Претендентам на получение визы необходимо подтвердить наличие трудового контракта или договор подряда с тайской или зарубежной компанией, а также иметь опыт работы в соответствующей сфере не менее пяти лет за последние десять лет до подачи заявления. /// А ещё потребуется приобрести медицинскую страховку на сумму покрытия не менее $50 тыс. на первые десять месяцев пребывания в королевстве или открыть депозит в размере не менее $100 тыс. в местном банке или за границей за 12 месяцев до подачи заявления на визу.",
+    "incomeRequirementsDetails": "Доход заявителя должен быть не менее $80 тыс. за последние два года. В случае, если доход  меньше, соискатель должен быть обладателем степени магистра, привлекать финансирование, или владеть интеллектуальной собственностью.",
+    "incomeRequirements": {
       "unit": "year",
       "unitCount": 2,
       "currency": "usd",
       "amount": 80000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Min insurance": {
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "minInsurance": {
       "currency": "usd",
       "amount": 50000
     },
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "В мае 2022 года правительство страны решило вдвое снизить стоимость сбора за выдачу ВНЖ до 50 тыс. батов ($1,5 тыс.)",
-    "Quota": "",
-    "Time to get": "",
-    "Important": [
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "В мае 2022 года правительство страны решило вдвое снизить стоимость сбора за выдачу ВНЖ до 50 тыс. батов ($1,5 тыс.)",
+    "quota": "",
+    "timeToGet": "",
+    "important": [
       "контракт с работодателем за границей на срок от шести месяцев, а также подтвердят наличие квалификации и опыта"
     ],
-    "Status": "wip"
+    "status": "wip"
   },
   {
-    "Country": "Шри-Ланка (план)",
-    "Country code": "LK",
-    "Slug": "sri-lanka",
-    "Link": "",
-    "Details": "Кабинет министров Шри-Ланки в июле 2021 года раскрыл план запуска разрешений на въезд для цифровых кочевников сроком на один год на базе расширенной туристической визы. /// На сегодняшний день в страну можно въехать по туристической визе на 30 дней, а затем продлевать её на срок до 270 дней. Продление визы от 30 до 90 дней возможно за $60–100 (в зависимости от гражданства туриста). Продление на 90–180 дней стоит $150, для граждан США – бесплатно. Продление на 180–270 дней стоит $200.",
-    "Roadmap": [
+    "title": "Шри-Ланка (план)",
+    "countryCode": "LK",
+    "slug": "sri-lanka",
+    "link": "",
+    "details": "Кабинет министров Шри-Ланки в июле 2021 года раскрыл план запуска разрешений на въезд для цифровых кочевников сроком на один год на базе расширенной туристической визы. /// На сегодняшний день в страну можно въехать по туристической визе на 30 дней, а затем продлевать её на срок до 270 дней. Продление визы от 30 до 90 дней возможно за $60–100 (в зависимости от гражданства туриста). Продление на 90–180 дней стоит $150, для граждан США – бесплатно. Продление на 180–270 дней стоит $200.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12
       }
     ],
-    "Validity period details": "один год",
-    "Requirements": "",
-    "Income requirements details": "",
-    "Income requirements": null,
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "",
-    "Status": "wip"
+    "validityDetails": "один год",
+    "requirements": "",
+    "incomeRequirementsDetails": "",
+    "incomeRequirements": null,
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "",
+    "status": "wip"
   },
   {
-    "Country": "Тайвань",
-    "Country code": "TW",
-    "Slug": "taiwan",
-    "Link": "",
-    "Details": "У Тайваня нет программы, предназначенной специально для цифровых кочевников, но есть золотая карта трудоустройства Golden Card17 на срок до трёх лет, которая применима для профессионалов, фрилансеров или самозанятых в одной из восьми востребованных в стране областей (например, юриспруденция, наука, финансы). Золотая карта представляет собой комбинацию разрешения на работу, резидентской визы, сертификата иностранца-резидента (ARC) и разрешения на многократный въезд.",
-    "Roadmap": [
+    "title": "Тайвань",
+    "countryCode": "TW",
+    "slug": "taiwan",
+    "link": "",
+    "details": "У Тайваня нет программы, предназначенной специально для цифровых кочевников, но есть золотая карта трудоустройства Golden Card17 на срок до трёх лет, которая применима для профессионалов, фрилансеров или самозанятых в одной из восьми востребованных в стране областей (например, юриспруденция, наука, финансы). Золотая карта представляет собой комбинацию разрешения на работу, резидентской визы, сертификата иностранца-резидента (ARC) и разрешения на многократный въезд.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 36
       }
     ],
-    "Validity period details": "до трех лет",
-    "Requirements": "",
-    "Income requirements details": "от $2 тыс. в месяц.",
-    "Income requirements": {
+    "validityDetails": "до трех лет",
+    "requirements": "",
+    "incomeRequirementsDetails": "от $2 тыс. в месяц.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
       "amount": 2000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "$100–310 в зависимости от вашей национальности и продолжительности пребывания.",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "$100–310 в зависимости от вашей национальности и продолжительности пребывания.",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Ангилья",
-    "Country code": "AI",
-    "Slug": "anguilla",
-    "Link": "",
-    "Details": "Этот островок в Карибском море – самоуправляемая британская территория.",
-    "Roadmap": [
+    "title": "Ангилья",
+    "countryCode": "AI",
+    "slug": "anguilla",
+    "link": "",
+    "details": "Этот островок в Карибском море – самоуправляемая британская территория.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12
       }
     ],
-    "Validity period details": "до 12 месяцев",
-    "Requirements": "иметь контракт с зарубежным работодателем или документы на владение бизнесом, кратко описать работу, которой занимается заявитель, предъявить справку о несудимости. Медицинская страховка необязательна, но желательна",
-    "Income requirements details": "-",
-    "Income requirements": null,
-    "Address requirements details": "",
-    "Address requirements": null,
-    "Insurance requirements": false,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "Для одного заявителя – $2 тыс. На семью до четырёх человек - $3 тыс. За каждого дополнительного иждивенца – $250.",
-    "Quota": "",
-    "Time to get": ""
+    "validityDetails": "до 12 месяцев",
+    "requirements": "иметь контракт с зарубежным работодателем или документы на владение бизнесом, кратко описать работу, которой занимается заявитель, предъявить справку о несудимости. Медицинская страховка необязательна, но желательна",
+    "incomeRequirementsDetails": "-",
+    "incomeRequirements": null,
+    "addressRequirementsDetails": "",
+    "addressRequirements": null,
+    "insuranceRequirements": false,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "Для одного заявителя – $2 тыс. На семью до четырёх человек - $3 тыс. За каждого дополнительного иждивенца – $250.",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Антигуа и Барбуда",
-    "Country code": "AG",
-    "Slug": "antigua-and-barbuda",
-    "Link": "",
-    "Details": "Антигуа и Барбуда запустила программу для цифровых кочевников под названием Nomad Digital Residence (NDR).",
-    "Roadmap": [
+    "title": "Антигуа и Барбуда",
+    "countryCode": "AG",
+    "slug": "antigua-and-barbuda",
+    "link": "",
+    "details": "Антигуа и Барбуда запустила программу для цифровых кочевников под названием Nomad Digital Residence (NDR).",
+    "roadmap": [
       {
         "type": "visa",
         "period": 24
       }
     ],
-    "Validity period details": "2 года",
-    "Requirements": "справка о несудимости, медицинская страховка, подтверждение занятости. Кандидат должен также доказать наличие средств для жизни в стране и ожидаемый доход в размере не менее $50 тыс. за каждый из двух лет действия ВНЖ.",
-    "Income requirements details": "не менее $50 тыс. за каждый из двух лет действия ВНЖ.",
-    "Income requirements": {
+    "validityDetails": "2 года",
+    "requirements": "справка о несудимости, медицинская страховка, подтверждение занятости. Кандидат должен также доказать наличие средств для жизни в стране и ожидаемый доход в размере не менее $50 тыс. за каждый из двух лет действия ВНЖ.",
+    "incomeRequirementsDetails": "не менее $50 тыс. за каждый из двух лет действия ВНЖ.",
+    "incomeRequirements": {
       "unit": "year",
       "unitCount": 1,
       "currency": "usd",
@@ -1197,24 +1197,24 @@
       "beforeTax": true,
       "shouldSustain": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "$1,5 тыс. – за одиночного заявителя, $2 тыс. – за семейную пару, $3 тыс. – за семью из трёх человек и более",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "$1,5 тыс. – за одиночного заявителя, $2 тыс. – за семейную пару, $3 тыс. – за семью из трёх человек и более",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Багамы",
-    "Country code": "BS",
-    "Slug": "bahamas",
-    "Link": "",
-    "Details": "Программа Багамских Островов носит название BEATS (The Bahamas Extended Access Travel Stay). По ней жить на островах, расположенных в Атлантическом океане возле побережья Флориды, можно 12 месяцев с возможностью продления до трёх лет. На привилегированном положении находятся граждане США, Канады, ЕС и Великобритании. Всем остальным за удовольствие жить на Багамах придётся заплатить ощутимую сумму.",
-    "Roadmap": [
+    "title": "Багамы",
+    "countryCode": "BS",
+    "slug": "bahamas",
+    "link": "",
+    "details": "Программа Багамских Островов носит название BEATS (The Bahamas Extended Access Travel Stay). По ней жить на островах, расположенных в Атлантическом океане возле побережья Флориды, можно 12 месяцев с возможностью продления до трёх лет. На привилегированном положении находятся граждане США, Канады, ЕС и Великобритании. Всем остальным за удовольствие жить на Багамах придётся заплатить ощутимую сумму.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
@@ -1222,171 +1222,171 @@
         "renewalPeriod": 36
       }
     ],
-    "Validity period details": "12 месяцев с возможностью продления до трёх лет.",
-    "Requirements": "От цифрового кочевника потребуется подтверждение удалённой работы или учёбы и медицинская страховка.",
-    "Income requirements details": "-",
-    "Income requirements": null,
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "Государственная пошлина за рассмотрение каждой заявки составляет $25. Взнос за участие в программе для заявителя составляет $1 тыс. плюс по $500 на каждого члена семьи. Сумма взноса для студентов – $500",
-    "Quota": "",
-    "Time to get": ""
+    "validityDetails": "12 месяцев с возможностью продления до трёх лет.",
+    "requirements": "От цифрового кочевника потребуется подтверждение удалённой работы или учёбы и медицинская страховка.",
+    "incomeRequirementsDetails": "-",
+    "incomeRequirements": null,
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "Государственная пошлина за рассмотрение каждой заявки составляет $25. Взнос за участие в программе для заявителя составляет $1 тыс. плюс по $500 на каждого члена семьи. Сумма взноса для студентов – $500",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Барбадос",
-    "Country code": "BB",
-    "Slug": "barbados",
-    "Link": "",
-    "Details": "Barbados Welcome Stamp – программа для желающих пожить на острове Барбадос в Карибском море.",
-    "Roadmap": [
+    "title": "Барбадос",
+    "countryCode": "BB",
+    "slug": "barbados",
+    "link": "",
+    "details": "Barbados Welcome Stamp – программа для желающих пожить на острове Барбадос в Карибском море.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
         "renewal": true
       }
     ],
-    "Validity period details": "12 месяцев с возможностью продлить визу",
-    "Requirements": "От цифрового кочевника потребуется подтверждение удалённой работы или и медицинская страховка.",
-    "Income requirements details": "от $50 тыс. в год",
-    "Income requirements": {
+    "validityDetails": "12 месяцев с возможностью продлить визу",
+    "requirements": "От цифрового кочевника потребуется подтверждение удалённой работы или и медицинская страховка.",
+    "incomeRequirementsDetails": "от $50 тыс. в год",
+    "incomeRequirements": {
       "unit": "year",
       "unitCount": 1,
       "currency": "usd",
       "amount": 50000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "$2 тыс. за одиночного заявителя и $3 тыс. – за семью",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "$2 тыс. за одиночного заявителя и $3 тыс. – за семью",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Бермуды",
-    "Country code": "BM",
-    "Slug": "bermuda",
-    "Link": "https://prian.ru/news/bermudskie-ostrova-vvodyat-godovye-vizy-dlya-cifrovyh-kochevnikov-i-studentov.html",
-    "Details": "На Бермудских Островах (это заморская территория Великобритании) цифровые кочевники могут поселиться на год по программе Work from Bermuda.",
-    "Roadmap": [
+    "title": "Бермуды",
+    "countryCode": "BM",
+    "slug": "bermuda",
+    "link": "https://prian.ru/news/bermudskie-ostrova-vvodyat-godovye-vizy-dlya-cifrovyh-kochevnikov-i-studentov.html",
+    "details": "На Бермудских Островах (это заморская территория Великобритании) цифровые кочевники могут поселиться на год по программе Work from Bermuda.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12
       }
     ],
-    "Validity period details": "год",
-    "Requirements": "Необходимо будет подтвердить наличие места работы или учёбы за пределами страны, предъявить справку о несудимости и медицинскую страховку. Программа не предполагает требований к минимальному доходу, но помните, что это одна из самых дорогих стран в мире, поэтому вам потребуется высокий стабильный доход.",
-    "Income requirements details": "-",
-    "Income requirements": null,
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "Взнос за «резидентский сертификат» составит $263. По истечении года его можно будет продлить, однако решение принимается в индивидуальном порядке и требует подачи новой заявки.",
-    "Quota": "",
-    "Time to get": ""
+    "validityDetails": "год",
+    "requirements": "Необходимо будет подтвердить наличие места работы или учёбы за пределами страны, предъявить справку о несудимости и медицинскую страховку. Программа не предполагает требований к минимальному доходу, но помните, что это одна из самых дорогих стран в мире, поэтому вам потребуется высокий стабильный доход.",
+    "incomeRequirementsDetails": "-",
+    "incomeRequirements": null,
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "Взнос за «резидентский сертификат» составит $263. По истечении года его можно будет продлить, однако решение принимается в индивидуальном порядке и требует подачи новой заявки.",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Британские Виргинские Острова (план)",
-    "Country code": "VG",
-    "Slug": "british-virgin-islands",
-    "Link": "https://prian.ru/news/britanskie-virginskie-ostrova-predlozhat-vnzh-dlya-udalyonnyh-rabotnikov-i-investorov.html",
-    "Details": "Острова в Карибском море, которые являются зависимой территорией Великобритании, осенью 2020 года объявили о запуске программы Invest and Stay. Она предназначена как для удалённых работников, так и для инвесторов, поэтому участникам будет разрешено нанимать работников. Также планировалось определить области экономики, вложения в которые будут засчитываться для участия в программе. Однако с тех пор прошло больше года, а определённости пока не появилось.",
-    "Validity period details": "",
-    "Requirements": "",
-    "Income requirements details": "",
-    "Income requirements": null,
-    "Address requirements details": "",
-    "Address requirements": null,
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "",
-    "Status": "wip"
+    "title": "Британские Виргинские Острова (план)",
+    "countryCode": "VG",
+    "slug": "british-virgin-islands",
+    "link": "https://prian.ru/news/britanskie-virginskie-ostrova-predlozhat-vnzh-dlya-udalyonnyh-rabotnikov-i-investorov.html",
+    "details": "Острова в Карибском море, которые являются зависимой территорией Великобритании, осенью 2020 года объявили о запуске программы Invest and Stay. Она предназначена как для удалённых работников, так и для инвесторов, поэтому участникам будет разрешено нанимать работников. Также планировалось определить области экономики, вложения в которые будут засчитываться для участия в программе. Однако с тех пор прошло больше года, а определённости пока не появилось.",
+    "validityDetails": "",
+    "requirements": "",
+    "incomeRequirementsDetails": "",
+    "incomeRequirements": null,
+    "addressRequirementsDetails": "",
+    "addressRequirements": null,
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "",
+    "status": "wip"
   },
   {
-    "Country": "Гренада (законопроект)",
-    "Country code": "GD",
-    "Slug": "grenada",
-    "Link": "",
-    "Details": "В мае 2021 года Гренада утвердила законопроект, регулирующий предоставление долгосрочных виз иностранцам, работающим на удалёнке. Он должен был вступить в силу в октябре; однако по состоянию на 2022 год никаких дальнейших объявлений сделано не было.",
-    "Validity period details": "",
-    "Requirements": "",
-    "Income requirements details": "не меньше $37 тыс. в год.",
-    "Income requirements": {
+    "title": "Гренада (законопроект)",
+    "countryCode": "GD",
+    "slug": "grenada",
+    "link": "",
+    "details": "В мае 2021 года Гренада утвердила законопроект, регулирующий предоставление долгосрочных виз иностранцам, работающим на удалёнке. Он должен был вступить в силу в октябре; однако по состоянию на 2022 год никаких дальнейших объявлений сделано не было.",
+    "validityDetails": "",
+    "requirements": "",
+    "incomeRequirementsDetails": "не меньше $37 тыс. в год.",
+    "incomeRequirements": {
       "unit": "year",
       "unitCount": 1,
       "currency": "usd",
       "amount": 37000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "Ожидается, что соискателей обяжут поселиться в официальных объектах размещения (отели, апартаменты и гостевые дома). Им будет разрешено привезти с собой иждивенцев, включая родителей и внуков. Стоит отметить, что дети не могут быть зачислены в государственные школы. Всем приехавшим потребуется медицинская страховка.",
-    "Cost": "для основного заявителя составит $1,5 тыс., семье до четырёх человек – $2 тыс., а за каждого дополнительного иждивенца – ещё $200",
-    "Quota": "",
-    "Time to get": "",
-    "Status": "wip"
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "Ожидается, что соискателей обяжут поселиться в официальных объектах размещения (отели, апартаменты и гостевые дома). Им будет разрешено привезти с собой иждивенцев, включая родителей и внуков. Стоит отметить, что дети не могут быть зачислены в государственные школы. Всем приехавшим потребуется медицинская страховка.",
+    "cost": "для основного заявителя составит $1,5 тыс., семье до четырёх человек – $2 тыс., а за каждого дополнительного иждивенца – ещё $200",
+    "quota": "",
+    "timeToGet": "",
+    "status": "wip"
   },
   {
-    "Country": "Доминика",
-    "Country code": "DM",
-    "Slug": "dominica",
-    "Link": "",
-    "Details": "Остров в Карибском море запустил программу под названием Work In Nature (WIN)",
-    "Roadmap": [
+    "title": "Доминика",
+    "countryCode": "DM",
+    "slug": "dominica",
+    "link": "",
+    "details": "Остров в Карибском море запустил программу под названием Work In Nature (WIN)",
+    "roadmap": [
       {
         "type": "visa",
         "period": 18
       }
     ],
-    "Validity period details": "виза на полтора года",
-    "Requirements": "Из документов потребуются справка об отсутствии судимости, медицинская страховка, а также письмо от работодателя или из банка. Участники программы продолжают платить подоходный налог в стране постоянного проживания",
-    "Income requirements details": "от $50 тыс",
-    "Income requirements": {
+    "validityDetails": "виза на полтора года",
+    "requirements": "Из документов потребуются справка об отсутствии судимости, медицинская страховка, а также письмо от работодателя или из банка. Участники программы продолжают платить подоходный налог в стране постоянного проживания",
+    "incomeRequirementsDetails": "от $50 тыс",
+    "incomeRequirements": {
       "unit": "year",
       "unitCount": 1,
       "currency": "usd",
       "amount": 50000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "$100 за подачу заявления. Сбор непосредственно за визу составит $800 для одиночных заявителей и $1,2 тыс. – за семью.",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "$100 за подачу заявления. Сбор непосредственно за визу составит $800 для одиночных заявителей и $1,2 тыс. – за семью.",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Кабо-Верде",
-    "Country code": "CV",
-    "Slug": "cape-verde",
-    "Link": "",
-    "Details": "Кабо-Верде – это десять крупных и восемь мелких островов, расположенных в Атлантическом океане примерно в 600 км от западного побережья Африки. Remote Working Cabo Verde",
-    "Roadmap": [
+    "title": "Кабо-Верде",
+    "countryCode": "CV",
+    "slug": "cape-verde",
+    "link": "",
+    "details": "Кабо-Верде – это десять крупных и восемь мелких островов, расположенных в Атлантическом океане примерно в 600 км от западного побережья Африки. Remote Working Cabo Verde",
+    "roadmap": [
       {
         "type": "visa",
         "period": 6,
@@ -1394,10 +1394,10 @@
         "renewalPeriod": 6
       }
     ],
-    "Validity period details": "6 месяцев. Пребывание можно продлить ещё на шесть месяцев.",
-    "Requirements": "Также надо оформить медицинскую страховку.",
-    "Income requirements details": "Потребуется подтвердить доход за последние шесть месяцев: от €1,5 тыс. в месяц для индивидуального заявителя и €2,7 тыс. в месяц – для семьи.",
-    "Income requirements": {
+    "validityDetails": "6 месяцев. Пребывание можно продлить ещё на шесть месяцев.",
+    "requirements": "Также надо оформить медицинскую страховку.",
+    "incomeRequirementsDetails": "Потребуется подтвердить доход за последние шесть месяцев: от €1,5 тыс. в месяц для индивидуального заявителя и €2,7 тыс. в месяц – для семьи.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "eur",
@@ -1405,33 +1405,33 @@
       "familyAmount": 2700,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "Стоимость визы €20, аэропортовый сбор – €34",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "Стоимость визы €20, аэропортовый сбор – €34",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Кайманы",
-    "Country code": "KY",
-    "Slug": "cayman-islands",
-    "Link": "https://prian.ru/news/kaymanovy-ostrova-zapuskayut-programmu-dlya-rabotnikov-na-udalenke.html",
-    "Details": "Три Каймановых острова находятся в Карибском море и относятся к заморским территориям Великобритании. По программе Global Citizen Concierge Program (GCCP) удалённые работники могут перебраться туда на срок до двух лет.",
-    "Roadmap": [
+    "title": "Кайманы",
+    "countryCode": "KY",
+    "slug": "cayman-islands",
+    "link": "https://prian.ru/news/kaymanovy-ostrova-zapuskayut-programmu-dlya-rabotnikov-na-udalenke.html",
+    "details": "Три Каймановых острова находятся в Карибском море и относятся к заморским территориям Великобритании. По программе Global Citizen Concierge Program (GCCP) удалённые работники могут перебраться туда на срок до двух лет.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 24
       }
     ],
-    "Validity period details": "до двух лет.",
-    "Requirements": "Также потребуются справка о несудимости, медицинская страховка и банковская выписка.",
-    "Income requirements details": "Одиночным заявителям необходимо подтвердить доход от $100 тыс. в год, семейным парам – от $150 тыс., семьям с детьми – от $180 тыс.",
-    "Income requirements": {
+    "validityDetails": "до двух лет.",
+    "requirements": "Также потребуются справка о несудимости, медицинская страховка и банковская выписка.",
+    "incomeRequirementsDetails": "Одиночным заявителям необходимо подтвердить доход от $100 тыс. в год, семейным парам – от $150 тыс., семьям с детьми – от $180 тыс.",
+    "incomeRequirements": {
       "unit": "year",
       "unitCount": 1,
       "currency": "usd",
@@ -1440,24 +1440,24 @@
       "eachAdditional": 30000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "За оформление сертификата на двух человек нужно заплатить $1 469 в год, за каждого иждивенца добавить $500. И ещё 7% от общей суммы составит банковская комиссия",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "За оформление сертификата на двух человек нужно заплатить $1 469 в год, за каждого иждивенца добавить $500. И ещё 7% от общей суммы составит банковская комиссия",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Кюрасао",
-    "Country code": "CW",
-    "Slug": "curacao",
-    "Link": "https://prian.ru/news/ostrov-v-karibskom-more-budet-vydavat-shestimesyachnye-vizy-udalyonnym-rabotnikam.html",
-    "Details": "С точки зрения географии Кюрасао – остров в Карибском море, с точки зрения политики – самоуправляемое государственное образование в составе Нидерландов. @Home in Curaçao. Налоговое резидентство по этой программе не меняется",
-    "Roadmap": [
+    "title": "Кюрасао",
+    "countryCode": "CW",
+    "slug": "curacao",
+    "link": "https://prian.ru/news/ostrov-v-karibskom-more-budet-vydavat-shestimesyachnye-vizy-udalyonnym-rabotnikam.html",
+    "details": "С точки зрения географии Кюрасао – остров в Карибском море, с точки зрения политики – самоуправляемое государственное образование в составе Нидерландов. @Home in Curaçao. Налоговое резидентство по этой программе не меняется",
+    "roadmap": [
       {
         "type": "visa",
         "period": 6,
@@ -1465,38 +1465,38 @@
         "renewalPeriod": 6
       }
     ],
-    "Validity period details": "шестимесячную визу с возможностью продления на такой же срок",
-    "Requirements": "подтвердить наличие удалённой работы, иметь медицинскую страховку и обратный билет.",
-    "Income requirements details": "-",
-    "Income requirements": null,
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "$294",
-    "Quota": "",
-    "Time to get": ""
+    "validityDetails": "шестимесячную визу с возможностью продления на такой же срок",
+    "requirements": "подтвердить наличие удалённой работы, иметь медицинскую страховку и обратный билет.",
+    "incomeRequirementsDetails": "-",
+    "incomeRequirements": null,
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "$294",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Маврикий",
-    "Country code": "MU",
-    "Slug": "mauritius",
-    "Link": "",
-    "Details": "Маврикий – островное государство в Индийском океане, в 900 км от Мадагаскара. Premium Travel Visa",
-    "Roadmap": [
+    "title": "Маврикий",
+    "countryCode": "MU",
+    "slug": "mauritius",
+    "link": "",
+    "details": "Маврикий – островное государство в Индийском океане, в 900 км от Мадагаскара. Premium Travel Visa",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
         "renewal": true
       }
     ],
-    "Validity period details": "на один год с возможностью продления",
-    "Requirements": "Также потребуется иметь медицинскую страховку и подтверждение бронирования жилья.",
-    "Income requirements details": "не менее $1,5 тыс. в месяц на каждого заявителя плюс $500 на каждого иждивенца до 24 лет.",
-    "Income requirements": {
+    "validityDetails": "на один год с возможностью продления",
+    "requirements": "Также потребуется иметь медицинскую страховку и подтверждение бронирования жилья.",
+    "incomeRequirementsDetails": "не менее $1,5 тыс. в месяц на каждого заявителя плюс $500 на каждого иждивенца до 24 лет.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
@@ -1504,160 +1504,160 @@
       "eachAdditional": 500,
       "beforeTax": true
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "подтверждение бронирования жилья"
     },
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "бесплатно",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "бесплатно",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Монтсеррат",
-    "Country code": "MS",
-    "Slug": "montserrat",
-    "Link": "",
-    "Details": "И ещё один островок в Карибском море, также заморская территория Великобритании. Здесь живёт всего 5 тыс. человек. Местная программа для цифровых кочевников называется Montserrat Remote Work Stamp.",
-    "Roadmap": [
+    "title": "Монтсеррат",
+    "countryCode": "MS",
+    "slug": "montserrat",
+    "link": "",
+    "details": "И ещё один островок в Карибском море, также заморская территория Великобритании. Здесь живёт всего 5 тыс. человек. Местная программа для цифровых кочевников называется Montserrat Remote Work Stamp.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
         "renewal": true
       }
     ],
-    "Validity period details": "12 месяцев. Для продления нужно будет подать повторную заявку.",
-    "Requirements": "Также потребуются медицинская страховка, справка об отсутствии судимости и подтверждение занятости.",
-    "Income requirements details": "от $70 тыс",
-    "Income requirements": {
+    "validityDetails": "12 месяцев. Для продления нужно будет подать повторную заявку.",
+    "requirements": "Также потребуются медицинская страховка, справка об отсутствии судимости и подтверждение занятости.",
+    "incomeRequirementsDetails": "от $70 тыс",
+    "incomeRequirements": {
       "unit": "year",
       "unitCount": 1,
       "currency": "usd",
       "amount": 70000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "Гербовый сбор составит $500 на одного человека, $750 – на семью, в которой до трёх иждивенцев, и $250 – на каждого дополнительного члена семьи",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "Гербовый сбор составит $500 на одного человека, $750 – на семью, в которой до трёх иждивенцев, и $250 – на каждого дополнительного члена семьи",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Сейшельские Острова",
-    "Country code": "SC",
-    "Slug": "seychelles",
-    "Link": "",
-    "Details": "Архипелаг из 115 островов в Восточной Африке. Seychelles Workcation",
-    "Roadmap": [
+    "title": "Сейшельские Острова",
+    "countryCode": "SC",
+    "slug": "seychelles",
+    "link": "",
+    "details": "Архипелаг из 115 островов в Восточной Африке. Seychelles Workcation",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
         "details": "от месяца до года"
       }
     ],
-    "Validity period details": "от месяца до года",
-    "Requirements": "представить подтверждение трудовых отношений или владения бизнесом, подтвердить наличие доходов (сумма не указана), иметь медицинскую страховку",
-    "Income requirements details": "-",
-    "Income requirements": null,
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "€45",
-    "Quota": "",
-    "Time to get": ""
+    "validityDetails": "от месяца до года",
+    "requirements": "представить подтверждение трудовых отношений или владения бизнесом, подтвердить наличие доходов (сумма не указана), иметь медицинскую страховку",
+    "incomeRequirementsDetails": "-",
+    "incomeRequirements": null,
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "€45",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Сент-Люсия",
-    "Country code": "LC",
-    "Slug": "saint-lucia",
-    "Link": "",
-    "Details": "Виза цифрового кочевника Сент-Люсии, также известная как программа «Live it», предназначена для удалённых работников, фрилансеров и студентов.",
-    "Roadmap": [
+    "title": "Сент-Люсия",
+    "countryCode": "LC",
+    "slug": "saint-lucia",
+    "link": "",
+    "details": "Виза цифрового кочевника Сент-Люсии, также известная как программа «Live it», предназначена для удалённых работников, фрилансеров и студентов.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12
       }
     ],
-    "Validity period details": "до года",
-    "Requirements": "Также понадобятся: справка об отсутствии судимости, место для проживания в Сент-Люсии, обратные билеты и договор – о трудоустройстве или заочном обучении. Требований к минимальному доходу не установлено, но придётся подтвердить наличие достаточных средств для жизни в стране.",
-    "Income requirements details": "-",
-    "Income requirements": null,
-    "Address requirements": {
+    "validityDetails": "до года",
+    "requirements": "Также понадобятся: справка об отсутствии судимости, место для проживания в Сент-Люсии, обратные билеты и договор – о трудоустройстве или заочном обучении. Требований к минимальному доходу не установлено, но придётся подтвердить наличие достаточных средств для жизни в стране.",
+    "incomeRequirementsDetails": "-",
+    "incomeRequirements": null,
+    "addressRequirements": {
       "details": "место для проживания"
     },
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "$75",
-    "Quota": "",
-    "Time to get": "5 рабочих дней",
-    "Important": [
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "$75",
+    "quota": "",
+    "timeToGet": "5 рабочих дней",
+    "important": [
       "Нужны обратные билеты"
     ]
   },
   {
-    "Country": "Канада",
-    "Country code": "CA",
-    "Slug": "canada",
-    "Link": "",
-    "Details": "Летом 2023 года правительство Канады объявило о запуске программы Canada Digital Nomad Visa, которую могут получить сотрудники, работающие из дома на любую зарубежную компанию, а также фрилансерам.",
-    "Roadmap": [
+    "title": "Канада",
+    "countryCode": "CA",
+    "slug": "canada",
+    "link": "",
+    "details": "Летом 2023 года правительство Канады объявило о запуске программы Canada Digital Nomad Visa, которую могут получить сотрудники, работающие из дома на любую зарубежную компанию, а также фрилансерам.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 6
       }
     ],
-    "Validity period details": "до 6 месяцев",
-    "Requirements": "",
-    "Income requirements details": "Четких требований к доходам заявителя нет, однако необходимо иметь минимум 7–10 000 долларов США на банковском счёте.",
-    "Money on bank account": {
+    "validityDetails": "до 6 месяцев",
+    "requirements": "",
+    "incomeRequirementsDetails": "Четких требований к доходам заявителя нет, однако необходимо иметь минимум 7–10 000 долларов США на банковском счёте.",
+    "moneyOnBankAccount": {
       "currency": "usd",
       "amount": 7000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "CAD 100 ($75).",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "CAD 100 ($75).",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Белиз",
-    "Country code": "BZ",
-    "Slug": "belize",
-    "Link": "",
-    "Details": "В феврале 2021 года Белиз объявил о запуске программы Work Where You Vacation, задача которой побудить туристов из США и других государств оставаться в стране на длительный срок.",
-    "Roadmap": [
+    "title": "Белиз",
+    "countryCode": "BZ",
+    "slug": "belize",
+    "link": "",
+    "details": "В феврале 2021 года Белиз объявил о запуске программы Work Where You Vacation, задача которой побудить туристов из США и других государств оставаться в стране на длительный срок.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 6
       }
     ],
-    "Validity period details": "6 месяцев",
-    "Requirements": "трудовой договор или минимальный доход в размере $75 тыс. для одного заявителя или $100 тыс. для семьи. Наличие необходимых средств нужно подтвердить нотариально заверенной банковской справкой и выпиской со счёта. Пакет документов также включает справку об отсутствии судимости и страховку с минимальной суммой покрытия $50 тыс.",
-    "Income requirements details": "$75 тыс. для одного заявителя или $100 тыс. для семьи",
-    "Income requirements": {
+    "validityDetails": "6 месяцев",
+    "requirements": "трудовой договор или минимальный доход в размере $75 тыс. для одного заявителя или $100 тыс. для семьи. Наличие необходимых средств нужно подтвердить нотариально заверенной банковской справкой и выпиской со счёта. Пакет документов также включает справку об отсутствии судимости и страховку с минимальной суммой покрытия $50 тыс.",
+    "incomeRequirementsDetails": "$75 тыс. для одного заявителя или $100 тыс. для семьи",
+    "incomeRequirements": {
       "unit": "year",
       "unitCount": 1,
       "currency": "usd",
@@ -1665,64 +1665,64 @@
       "familyAmount": 100000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Min insurance": {
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "minInsurance": {
       "currency": "usd",
       "amount": 50000
     },
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "гербовый сбор в размере $248 за взрослого и $99 за ребёнка в возрасте до 18 лет за каждый месяц пребывания в стране",
-    "Quota": "",
-    "Time to get": "",
-    "Important": [
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "гербовый сбор в размере $248 за взрослого и $99 за ребёнка в возрасте до 18 лет за каждый месяц пребывания в стране",
+    "quota": "",
+    "timeToGet": "",
+    "important": [
       "Наличие необходимых средств нужно подтвердить нотариально заверенной банковской справкой и выпиской со счёта."
     ]
   },
   {
-    "Country": "Колумбия",
-    "Country code": "CO",
-    "Slug": "colombia",
-    "Link": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=160966",
-    "Details": "В конце июля 2022 года Министерство иностранных дел стран опубликовало новый закон об иммиграции, который вступил в силу 22 октября 2022 года.",
-    "Roadmap": [
+    "title": "Колумбия",
+    "countryCode": "CO",
+    "slug": "colombia",
+    "link": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=160966",
+    "details": "В конце июля 2022 года Министерство иностранных дел стран опубликовало новый закон об иммиграции, который вступил в силу 22 октября 2022 года.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 24
       }
     ],
-    "Validity period details": "2 года",
-    "Requirements": "письмо на испанском или английском языке, выданное одной или несколькими иностранными компаниями, которым иностранец предоставляет услуги; медицинская страховка с покрытием в Колумбии для тех, кто планирует постоянно проживать в стране.",
-    "Income requirements details": "иметь банковские выписки, подтверждающие ежемесячный доход в размере не менее трёх минимальных месячных легальных зарплат, то есть 3 млн песо, или $900;",
-    "Income requirements": {
+    "validityDetails": "2 года",
+    "requirements": "письмо на испанском или английском языке, выданное одной или несколькими иностранными компаниями, которым иностранец предоставляет услуги; медицинская страховка с покрытием в Колумбии для тех, кто планирует постоянно проживать в стране.",
+    "incomeRequirementsDetails": "иметь банковские выписки, подтверждающие ежемесячный доход в размере не менее трёх минимальных месячных легальных зарплат, то есть 3 млн песо, или $900;",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
       "amount": 900,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "Плата за рассмотрение заявки: $52 . Визовый сбор: $ 170 .",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "Плата за рассмотрение заявки: $52 . Визовый сбор: $ 170 .",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Коста-Рика",
-    "Country code": "CR",
-    "Slug": "costa-rica",
-    "Link": "https://www.migracion.go.cr/",
-    "Details": "Коста-Рика объявила о запуске визы цифрового кочевника летом 2021 года. 11 августа президент страны подписал Digital Nomads Law, определяющий порядок пребывания в Коста-Рике иностранцев, работающих удалённо. Иностранцы будут освобождены от уплаты подоходного налога в стране.",
-    "Roadmap": [
+    "title": "Коста-Рика",
+    "countryCode": "CR",
+    "slug": "costa-rica",
+    "link": "https://www.migracion.go.cr/",
+    "details": "Коста-Рика объявила о запуске визы цифрового кочевника летом 2021 года. 11 августа президент страны подписал Digital Nomads Law, определяющий порядок пребывания в Коста-Рике иностранцев, работающих удалённо. Иностранцы будут освобождены от уплаты подоходного налога в стране.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
@@ -1730,10 +1730,10 @@
         "renewalPeriod": 12
       }
     ],
-    "Validity period details": "год. Затем разрешение можно будет продлить ещё на один год.",
-    "Requirements": "Медицинская страховка также потребуется",
-    "Income requirements details": "в течение последнего года иметь ежемесячный доход не менее $3 тыс. или не менее $4 тыс., если он переезжает с кем-то из членов семьи. Кроме того, цифровой кочевник должен будет подтвердить, что он сможет получать необходимый доход, даже находясь за границей.",
-    "Income requirements": {
+    "validityDetails": "год. Затем разрешение можно будет продлить ещё на один год.",
+    "requirements": "Медицинская страховка также потребуется",
+    "incomeRequirementsDetails": "в течение последнего года иметь ежемесячный доход не менее $3 тыс. или не менее $4 тыс., если он переезжает с кем-то из членов семьи. Кроме того, цифровой кочевник должен будет подтвердить, что он сможет получать необходимый доход, даже находясь за границей.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
@@ -1742,29 +1742,29 @@
       "beforeTax": true,
       "monthsBefore": 12
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "",
-    "Cost": "около $100",
-    "Quota": "",
-    "Time to get": "",
-    "Where to get": "на месте",
-    "Resources": [
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "",
+    "cost": "около $100",
+    "quota": "",
+    "timeToGet": "",
+    "whereToGet": "на месте",
+    "resources": [
       "https://pronomad.ru/blog/costa-rica-digital-nomad-viza/"
     ],
-    "Notes": "pronomad says income requirements are 2775"
+    "notes": "pronomad says income requirements are 2775"
   },
   {
-    "Country": "Мексика",
-    "Country code": "MX",
-    "Slug": "mexico",
-    "Link": "https://consulmex.sre.gob.mx/",
-    "Details": "",
-    "Roadmap": [
+    "title": "Мексика",
+    "countryCode": "MX",
+    "slug": "mexico",
+    "link": "https://consulmex.sre.gob.mx/",
+    "details": "",
+    "roadmap": [
       {
         "type": "visa",
         "period": 6,
@@ -1774,10 +1774,10 @@
         "details": "Через 4 года можно подать заявление на получение ПМЖ"
       }
     ],
-    "Validity period details": "шесть месяцев и может быть продлена на срок до четырёх лет. Через 4 года можно подать заявление на получение ПМЖ",
-    "Requirements": "",
-    "Income requirements details": "наличие суммы от $50 тыс. на банковском счёте в течение последних 12 месяцев или ежемесячный доход в течение последних шести месяцев от $3000",
-    "Income requirements": {
+    "validityDetails": "шесть месяцев и может быть продлена на срок до четырёх лет. Через 4 года можно подать заявление на получение ПМЖ",
+    "requirements": "",
+    "incomeRequirementsDetails": "наличие суммы от $50 тыс. на банковском счёте в течение последних 12 месяцев или ежемесячный доход в течение последних шести месяцев от $3000",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
@@ -1785,32 +1785,32 @@
       "beforeTax": true,
       "monthsBefore": 6
     },
-    "Money on bank account": {
+    "moneyOnBankAccount": {
       "currency": "usd",
       "amount": 50000
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "$48",
-    "Quota": "",
-    "Time to get": "",
-    "Resources": [
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "$48",
+    "quota": "",
+    "timeToGet": "",
+    "resources": [
       "https://pronomad.ru/blog/mexico-nomad-visa/"
     ],
-    "Notes": "pronomad says residency true. also 1 год, с продлением до 4 лет. also income 2300"
+    "notes": "pronomad says residency true. also 1 год, с продлением до 4 лет. also income 2300"
   },
   {
-    "Country": "Панама",
-    "Country code": "PA",
-    "Slug": "panama",
-    "Link": "",
-    "Details": "В мае 2021 года Панама приняла указ, вводящий краткосрочные визы удалённого работника (Short Stay Visa as a Remote Worker).",
-    "Roadmap": [
+    "title": "Панама",
+    "countryCode": "PA",
+    "slug": "panama",
+    "link": "",
+    "details": "В мае 2021 года Панама приняла указ, вводящий краткосрочные визы удалённого работника (Short Stay Visa as a Remote Worker).",
+    "roadmap": [
       {
         "type": "visa",
         "period": 9,
@@ -1818,37 +1818,37 @@
         "renewalPeriod": 9
       }
     ],
-    "Validity period details": "девять месяцев и может быть продлено на тот же срок",
-    "Requirements": "Кроме того, нужно предъявить медицинскую страховку и доказательство трудовых отношений с компанией, находящейся за границей. Иностранец подписывает обязательство не работать на компании Панамы и покинуть страну после истечения срока действия визы.",
-    "Income requirements details": "годовой доход в размере от $36 тыс",
-    "Income requirements": {
+    "validityDetails": "девять месяцев и может быть продлено на тот же срок",
+    "requirements": "Кроме того, нужно предъявить медицинскую страховку и доказательство трудовых отношений с компанией, находящейся за границей. Иностранец подписывает обязательство не работать на компании Панамы и покинуть страну после истечения срока действия визы.",
+    "incomeRequirementsDetails": "годовой доход в размере от $36 тыс",
+    "incomeRequirements": {
       "unit": "year",
       "unitCount": 1,
       "currency": "usd",
       "amount": 36000,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "$300",
-    "Quota": "",
-    "Time to get": "",
-    "Important": [
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "$300",
+    "quota": "",
+    "timeToGet": "",
+    "important": [
       "Иностранец подписывает обязательство не работать на компании Панамы и покинуть страну после истечения срока действия визы."
     ]
   },
   {
-    "Country": "Бразилия",
-    "Country code": "BR",
-    "Slug": "brazil",
-    "Link": "https://www.in.gov.br",
-    "Details": "Бразилия стала первой страной в Южной Америке, которая внедрила программу для цифровых кочевников. Она вступила в силу 24 февраля 2022 года.",
-    "Roadmap": [
+    "title": "Бразилия",
+    "countryCode": "BR",
+    "slug": "brazil",
+    "link": "https://www.in.gov.br",
+    "details": "Бразилия стала первой страной в Южной Америке, которая внедрила программу для цифровых кочевников. Она вступила в силу 24 февраля 2022 года.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12,
@@ -1856,71 +1856,71 @@
         "renewalPeriod": 12
       }
     ],
-    "Validity period details": "до года с возможностью продления ещё на один год",
-    "Requirements": "Это может быть контракт с зарубежным работодателем или бизнес за пределами Бразилии. Также потребуется приобрести медицинскую страховку и подтвердить отсутствие судимости.",
-    "Income requirements details": "не менее $1,5 тыс., или он должен показать наличие $18 тыс. на банковском счёте",
-    "Income requirements": {
+    "validityDetails": "до года с возможностью продления ещё на один год",
+    "requirements": "Это может быть контракт с зарубежным работодателем или бизнес за пределами Бразилии. Также потребуется приобрести медицинскую страховку и подтвердить отсутствие судимости.",
+    "incomeRequirementsDetails": "не менее $1,5 тыс., или он должен показать наличие $18 тыс. на банковском счёте",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
       "amount": 1500,
       "beforeTax": true
     },
-    "Money on bank account": {
+    "moneyOnBankAccount": {
       "currency": "usd",
       "amount": 18000
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "$123",
-    "Quota": "",
-    "Time to get": "",
-    "Resources": [
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "$123",
+    "quota": "",
+    "timeToGet": "",
+    "resources": [
       "https://prian.ru/news/braziliya-budet-vydavat-vnzh-cifrovym-kochevnikam.html",
       "https://pronomad.ru/blog/brasil-digital-nomad-visa/"
     ],
-    "Notes": "pronomad says residency true. also income is 1390"
+    "notes": "pronomad says residency true. also income is 1390"
   },
   {
-    "Country": "Аргентина",
-    "Country code": "AR",
-    "Slug": "argentina",
-    "Link": "https://prian.ru/news/argentina-predlozhit-vnzh-cifrovym-kochevnikam.html",
-    "Details": "В мае 2022 года правительство Аргентины объявило о запуске ВНЖ для цифровых кочевников. Важно, что в программе могут участвовать только те иностранцы, которым обычно не требуется виза для въезда в Аргентину. (нам не нужна)",
-    "Roadmap": [
+    "title": "Аргентина",
+    "countryCode": "AR",
+    "slug": "argentina",
+    "link": "https://prian.ru/news/argentina-predlozhit-vnzh-cifrovym-kochevnikam.html",
+    "details": "В мае 2022 года правительство Аргентины объявило о запуске ВНЖ для цифровых кочевников. Важно, что в программе могут участвовать только те иностранцы, которым обычно не требуется виза для въезда в Аргентину. (нам не нужна)",
+    "roadmap": [
       {
         "type": "residency",
         "period": 6,
         "renewal": true
       }
     ],
-    "Validity period details": "до шести месяцев с возможностью продления",
-    "Requirements": "Кандидаты должны представить документы о своей работе за границей (трудовой контракт, информацию о доходе) и приложить резюме, которое описывает их профессиональный опыт и уровень образования. В отличие от других подобных программ, здесь не установлена минимальная зарплата, обладатели которой могут запросить такой ВНЖ.",
-    "Income requirements details": "-",
-    "Income requirements": null,
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "$200 на одного заявителя",
-    "Quota": "",
-    "Time to get": ""
+    "validityDetails": "до шести месяцев с возможностью продления",
+    "requirements": "Кандидаты должны представить документы о своей работе за границей (трудовой контракт, информацию о доходе) и приложить резюме, которое описывает их профессиональный опыт и уровень образования. В отличие от других подобных программ, здесь не установлена минимальная зарплата, обладатели которой могут запросить такой ВНЖ.",
+    "incomeRequirementsDetails": "-",
+    "incomeRequirements": null,
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "$200 на одного заявителя",
+    "quota": "",
+    "timeToGet": ""
   },
   {
-    "Country": "Уругвай",
-    "Country code": "UY",
-    "Slug": "uruguay",
-    "Link": "https://www.gub.uy/",
-    "Details": "ВНЖ для цифровых кочевников. Заявления на ВНЖ цифрового кочевника подаются непосредственно с территории Уругвая на государственном портале электронного правительства Уругвая. Въехать в страну можно в качестве туриста.",
-    "Roadmap": [
+    "title": "Уругвай",
+    "countryCode": "UY",
+    "slug": "uruguay",
+    "link": "https://www.gub.uy/",
+    "details": "ВНЖ для цифровых кочевников. Заявления на ВНЖ цифрового кочевника подаются непосредственно с территории Уругвая на государственном портале электронного правительства Уругвая. Въехать в страну можно в качестве туриста.",
+    "roadmap": [
       {
         "type": "residency",
         "period": 6,
@@ -1930,31 +1930,31 @@
         "yearsToPermanent": 24
       }
     ],
-    "Leads to permanent": true,
-    "Validity period details": "шесть месяцев с возможностью продления ещё один раз на такой же срок. Если иностранец проживает в стране не менее шести месяцев в год в течение двух лет, то он имеет право претендовать на ПМЖ.",
-    "Requirements": "Документ о трудоустройстве в иностранной компании в качестве сотрудника, фрилансера или владельца бизнеса за пределами Уругвая. Справки об отсутствии судимостей за последние пять лет из всех стран, где заявитель проживал более шести месяцев (требуются при продлении первичного ВНЖ на последующие шесть месяцев). Подтверждение достаточного уровня дохода для проживания в стране. Соискатель должен заполнить письменное заявление под присягой о том, что имеет достаточный уровень дохода для жизни в Уругвае.",
-    "Income requirements details": "-",
-    "Income requirements": null,
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": false,
-    "Criminal record": false,
-    "Needs client from country": false,
-    "Bringing family": true,
-    "Family details": "Включать членов семьи в совместную заявку нельзя. Все должны подавать отдельные заявления на выдачу ВНЖ. Поскольку чёткие требования к необходимому уровню дохода отсутствуют, получить одобрение не составит труда.",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "",
-    "Where to get": "запрашивается онлайн после въезда в страну",
-    "Notes": "pronomad: 6 месяцев, с продлением до 1 года. bringing family false"
+    "leadsToPermanent": true,
+    "validityDetails": "шесть месяцев с возможностью продления ещё один раз на такой же срок. Если иностранец проживает в стране не менее шести месяцев в год в течение двух лет, то он имеет право претендовать на ПМЖ.",
+    "requirements": "Документ о трудоустройстве в иностранной компании в качестве сотрудника, фрилансера или владельца бизнеса за пределами Уругвая. Справки об отсутствии судимостей за последние пять лет из всех стран, где заявитель проживал более шести месяцев (требуются при продлении первичного ВНЖ на последующие шесть месяцев). Подтверждение достаточного уровня дохода для проживания в стране. Соискатель должен заполнить письменное заявление под присягой о том, что имеет достаточный уровень дохода для жизни в Уругвае.",
+    "incomeRequirementsDetails": "-",
+    "incomeRequirements": null,
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": false,
+    "criminalRecord": false,
+    "needsLocalClients": false,
+    "bringingFamily": true,
+    "familyDetails": "Включать членов семьи в совместную заявку нельзя. Все должны подавать отдельные заявления на выдачу ВНЖ. Поскольку чёткие требования к необходимому уровню дохода отсутствуют, получить одобрение не составит труда.",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "",
+    "whereToGet": "запрашивается онлайн после въезда в страну",
+    "notes": "pronomad: 6 месяцев, с продлением до 1 года. bringing family false"
   },
   {
-    "Country": "Эквадор",
-    "Country code": "EC",
-    "Slug": "ecuador",
-    "Link": "https://ecuador.travel/en/nomad-visa/",
-    "Details": "В октябре 2022 года правительство Эквадора запустило программу двухлетнего ВНЖ для цифровых кочевников. Она предлагает иностранным гражданам, которые владеют компанией или работают удалённо на компанию за пределами Эквадора, возможность проживать в Эквадоре и трудиться без местного спонсорства. ВНЖ для удалённых работников (Rentista for Remote Work)",
-    "Roadmap": [
+    "title": "Эквадор",
+    "countryCode": "EC",
+    "slug": "ecuador",
+    "link": "https://ecuador.travel/en/nomad-visa/",
+    "details": "В октябре 2022 года правительство Эквадора запустило программу двухлетнего ВНЖ для цифровых кочевников. Она предлагает иностранным гражданам, которые владеют компанией или работают удалённо на компанию за пределами Эквадора, возможность проживать в Эквадоре и трудиться без местного спонсорства. ВНЖ для удалённых работников (Rentista for Remote Work)",
+    "roadmap": [
       {
         "type": "residency",
         "period": 24,
@@ -1963,10 +1963,10 @@
         "yearsToPermanent": 3
       }
     ],
-    "Validity period details": "до двух лет с возможностью продления неограниченное количество раз при условии соответствия критериям. После трёх лет проживания в статусе временного резидента можно подавать документы на получение ПМЖ. Но для этого нужно соблюдать требования к минимальному пребыванию в Эквадоре, которое составляет 90 дней в год.",
-    "Requirements": "Также необходимо предоставить справку об отсутствии судимости и медицинскую страховку.",
-    "Income requirements details": "не менее трёх базовых окладов (в настоящий момент базовая ставка Эквадора равна $425), то есть $1 275. За каждого зависимого члена семьи необходимо увеличивать эту сумму на $250. Можно также продемонстрировать сумму в размере 36 средних размеров оплаты труда в Эквадоре за каждый год пребывания в стране.",
-    "Income requirements": {
+    "validityDetails": "до двух лет с возможностью продления неограниченное количество раз при условии соответствия критериям. После трёх лет проживания в статусе временного резидента можно подавать документы на получение ПМЖ. Но для этого нужно соблюдать требования к минимальному пребыванию в Эквадоре, которое составляет 90 дней в год.",
+    "requirements": "Также необходимо предоставить справку об отсутствии судимости и медицинскую страховку.",
+    "incomeRequirementsDetails": "не менее трёх базовых окладов (в настоящий момент базовая ставка Эквадора равна $425), то есть $1 275. За каждого зависимого члена семьи необходимо увеличивать эту сумму на $250. Можно также продемонстрировать сумму в размере 36 средних размеров оплаты труда в Эквадоре за каждый год пребывания в стране.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
@@ -1974,65 +1974,65 @@
       "eachAdditional": 250,
       "beforeTax": true
     },
-    "Money on bank account": {
+    "moneyOnBankAccount": {
       "currency": "usd",
       "amount": 15300
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "$460",
-    "Quota": "",
-    "Time to get": "Процесс обработки заявления на визу цифрового кочевника в консульствах Эквадора составляет в среднем семь рабочих дней.",
-    "Notes": "Подавать заявления на визу могут только граждане стран, утверждённых в списке Министерства туризма Эквадора."
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "$460",
+    "quota": "",
+    "timeToGet": "Процесс обработки заявления на визу цифрового кочевника в консульствах Эквадора составляет в среднем семь рабочих дней.",
+    "notes": "Подавать заявления на визу могут только граждане стран, утверждённых в списке Министерства туризма Эквадора."
   },
   {
-    "Country": "ЮАР (план)",
-    "Country code": "ZA",
-    "Slug": "south-africa",
-    "Link": "",
-    "Details": "В начале 2022 года ЮАР объявила о планах запуска программы для цифровых кочевников Remote Working Visa, которая позволит иностранцам находиться в стране до года.",
-    "Roadmap": [
+    "title": "ЮАР (план)",
+    "countryCode": "ZA",
+    "slug": "south-africa",
+    "link": "",
+    "details": "В начале 2022 года ЮАР объявила о планах запуска программы для цифровых кочевников Remote Working Visa, которая позволит иностранцам находиться в стране до года.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 12
       }
     ],
-    "Validity period details": "до года",
-    "Requirements": "Заявителям будет необходимо продемонстрировать доказательства трудоустройства за границей, а также достаточный доход от деятельности или собственного бизнеса, зарегистрированного за пределами ЮАР. Иностранцев также попросят сделать медстраховку, представить справку о несудимости и подтвердить место проживания, которое они арендовали или забронировали на время визита",
-    "Income requirements details": "Официальная цифра не объявлена, но предполагается, что она составит около $3 тыс. в месяц.",
-    "Income requirements": {
+    "validityDetails": "до года",
+    "requirements": "Заявителям будет необходимо продемонстрировать доказательства трудоустройства за границей, а также достаточный доход от деятельности или собственного бизнеса, зарегистрированного за пределами ЮАР. Иностранцев также попросят сделать медстраховку, представить справку о несудимости и подтвердить место проживания, которое они арендовали или забронировали на время визита",
+    "incomeRequirementsDetails": "Официальная цифра не объявлена, но предполагается, что она составит около $3 тыс. в месяц.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
       "amount": 3000,
       "beforeTax": true
     },
-    "Address requirements": {
+    "addressRequirements": {
       "details": "подтвердить место проживания, которое они арендовали или забронировали на время визита"
     },
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "",
-    "Quota": "",
-    "Time to get": "",
-    "Status": "wip"
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "",
+    "quota": "",
+    "timeToGet": "",
+    "status": "wip"
   },
   {
-    "Country": "Намибия",
-    "Country code": "NA",
-    "Slug": "namibia",
-    "Link": "",
-    "Details": "В октябре 2022 года Намибия запустила визу для цифровых кочевников, которая позволяет жить в стране до шести месяцев с возможностью продления на такой же срок.",
-    "Roadmap": [
+    "title": "Намибия",
+    "countryCode": "NA",
+    "slug": "namibia",
+    "link": "",
+    "details": "В октябре 2022 года Намибия запустила визу для цифровых кочевников, которая позволяет жить в стране до шести месяцев с возможностью продления на такой же срок.",
+    "roadmap": [
       {
         "type": "visa",
         "period": 6,
@@ -2040,10 +2040,10 @@
         "renewalPeriod": 6
       }
     ],
-    "Validity period details": "до шести месяцев с возможностью продления на такой же срок",
-    "Requirements": "Также необходимо предоставить документ, подтверждающий трудоустройство или иной источник дохода за пределами страны, медицинскую страховку, справку об отсутствии судимости",
-    "Income requirements details": "$2000 в месяц + $1000 на супруга и ещё $500 на каждого ребёнка.",
-    "Income requirements": {
+    "validityDetails": "до шести месяцев с возможностью продления на такой же срок",
+    "requirements": "Также необходимо предоставить документ, подтверждающий трудоустройство или иной источник дохода за пределами страны, медицинскую страховку, справку об отсутствии судимости",
+    "incomeRequirementsDetails": "$2000 в месяц + $1000 на супруга и ещё $500 на каждого ребёнка.",
+    "incomeRequirements": {
       "unit": "month",
       "unitCount": 1,
       "currency": "usd",
@@ -2052,15 +2052,15 @@
       "eachAdditional": 500,
       "beforeTax": true
     },
-    "Address requirements": null,
-    "Address requirements details": "",
-    "Insurance requirements": true,
-    "Criminal record": true,
-    "Needs client from country": false,
-    "Bringing family": false,
-    "Family details": "",
-    "Cost": "За выдачу визы придётся заплатить $65 по прибытии в страну.",
-    "Quota": "",
-    "Time to get": ""
+    "addressRequirements": null,
+    "addressRequirementsDetails": "",
+    "insuranceRequirements": true,
+    "criminalRecord": true,
+    "needsLocalClients": false,
+    "bringingFamily": false,
+    "familyDetails": "",
+    "cost": "За выдачу визы придётся заплатить $65 по прибытии в страну.",
+    "quota": "",
+    "timeToGet": ""
   }
 ]

@@ -45,14 +45,28 @@
 }
 
 .filters {
+  padding-right: 2rem;
+  min-width: 15rem;
   width: 23%;
+}
 
-  h3 {
-    margin-bottom: 2rem;
+.filtersHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.clearFilters {
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
   }
 }
 
 .field {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 2rem;
 
   input {
@@ -106,4 +120,28 @@
 
 .noResults {
   line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  .programs {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .filters {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .programs {
+    grid-template-columns: 1fr;
+  }
 }

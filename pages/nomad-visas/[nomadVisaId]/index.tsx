@@ -4,7 +4,7 @@ import ProgramPage from '@/components/ProgramPage';
 export async function getStaticProps(context: any) {
   const { nomadVisaId } = context.params;
 
-  const currentProgram = nomadVisas.find((program: any) => program.Slug === nomadVisaId);
+  const currentProgram = nomadVisas.find((program: any) => program.slug === nomadVisaId);
 
   return {
     props: {
@@ -16,7 +16,7 @@ export async function getStaticProps(context: any) {
 export async function getStaticPaths() {
   return {
     paths: nomadVisas.map((program: any) => ({
-      params: { nomadVisaId: program.Slug }
+      params: { nomadVisaId: program.slug }
     })),
     fallback: false
   }

@@ -34,10 +34,10 @@
 .categories {
   display: flex;
   margin-bottom: 3.25rem;
+  gap: 1rem;
 }
 
 .category {
-  margin-right: 1rem;
   padding: 0.5rem 1rem;
   border: 1px solid transparent;
   border-radius: 8px;
@@ -189,27 +189,30 @@
 }
 
 @media (max-width: 1024px) {
-  .main {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    margin-top: 3rem;
-    min-height: auto;
-    height: 70vh;
-  }
-
-  .header {
-    margin: 0;
-    margin-bottom: 1rem;
-  }
-
-  .projects {
-    width: 100%;
+  .categories {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
   }
 }
 
 @media (max-width: 600px) {
   .main {
-    margin-top: 1rem;
-    padding: 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .header {
+    flex-direction: column-reverse;
+    gap: 0;
+    padding: 0;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+    }
   }
 }
