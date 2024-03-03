@@ -21,29 +21,6 @@ export const permitTypeTranslations: any = {
   "residency": "ВНЖ",
 }
 
-const columns = [
-  {
-    title: 'Country',
-    dataIndex: 'Country',
-    key: 'Country',
-  },
-  {
-    title: 'Details',
-    dataIndex: 'Details',
-    key: 'Details',
-  },
-  {
-    title: 'Requirements',
-    dataIndex: 'Requirements',
-    key: 'Requirements',
-  },
-  {
-    title: 'Income requirements',
-    dataIndex: 'Income requirements',
-    key: 'Income requirements',
-  },
-];
-
 // filters
 // monthly income slider
 // allows to bring family checkbox
@@ -84,7 +61,11 @@ const ProgramsTable = () => {
         // before/after tax
         // yeah a lot to consider. definitely needs a note like "double check"
         // separate the ones with unclear requirements vs no requirements
-        const monthlyRequirementMatch = v.incomeRequirements?.unit === "month" && v.incomeRequirements?.amount <= filterValues.monthlyIncome;
+        let incomeAmount = v.incomeRequirements?.amount;
+        if (v.incomeRequirements?.currency === "eur") {
+          incomeAmount = incomeAmount * 1.09;
+        }
+        const monthlyRequirementMatch = v.incomeRequirements?.unit === "month" && incomeAmount <= filterValues.monthlyIncome;
         if (!(monthlyRequirementMatch || v.incomeRequirementsDetails === "-")) {
           match = false;
         }
@@ -96,8 +77,12 @@ const ProgramsTable = () => {
         // before/after tax
         // yeah a lot to consider. definitely needs a note like "double check"
         // separate the ones with unclear requirements vs no requirements
-        const yearlyRequirementMatch = v.incomeRequirements?.unit === "year" && v.incomeRequirements?.amount <= filterValues.yearlyIncome;
-        const monthlyRequirementMatch = v.incomeRequirements?.unit === "month" && v.incomeRequirements?.amount <= (filterValues.yearlyIncome / 12);
+        let incomeAmount = v.incomeRequirements?.amount;
+        if (v.incomeRequirements?.currency === "eur") {
+          incomeAmount = incomeAmount * 1.09;
+        }
+        const yearlyRequirementMatch = v.incomeRequirements?.unit === "year" && incomeAmount <= filterValues.yearlyIncome;
+        const monthlyRequirementMatch = v.incomeRequirements?.unit === "month" && incomeAmount <= (filterValues.yearlyIncome / 12);
         if (!(yearlyRequirementMatch || monthlyRequirementMatch || v.incomeRequirementsDetails === "-")) {
           match = false;
         }
@@ -109,7 +94,11 @@ const ProgramsTable = () => {
         // before/after tax
         // yeah a lot to consider. definitely needs a note like "double check"
         // separate the ones with unclear requirements vs no requirements
-        const bankBalanceMatch = v.moneyOnBankAccount?.amount <= filterValues.bankBalance;
+        let balanceAmount = v.moneyOnBankAccount?.amount;
+        if (v.moneyOnBankAccount?.currency === "eur") {
+          balanceAmount = balanceAmount * 1.09;
+        }
+        const bankBalanceMatch = balanceAmount <= filterValues.bankBalance;
         if (!bankBalanceMatch) {
           match = false;
         }
@@ -287,7 +276,7 @@ const ProgramsTable = () => {
                         {program.incomeRequirements && (
                           program.incomeRequirements?.currency && `${(currencies as any)[program.incomeRequirements.currency?.toUpperCase()]?.symbol}${program.incomeRequirements?.amount} / ${program.incomeRequirements?.unit && periodLabelTranslations[program.incomeRequirements.unit]}`
                         )}
-                        {program.incomeRequirements ? " или " : ""}
+                        {program.incomeRequirements && program.moneyOnBankAccount ? " или " : ""}
                         {program.moneyOnBankAccount?.currency && `${(currencies as any)[program.moneyOnBankAccount.currency?.toUpperCase()]?.symbol}${program.moneyOnBankAccount?.amount} на счету`}
                       </li>
                     )}
